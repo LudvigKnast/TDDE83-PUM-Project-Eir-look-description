@@ -1,0 +1,60 @@
+/* The container for the timeline which is scrollable */
+.scroll-x {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  padding-left: 20px;
+  height: 100%;
+  min-height: 200px;
+  width: 90%;
+  min-width: 600px;
+  margin-left: 5%;
+  margin-right: 5%;
+  border: 2px solid rgb(109, 160, 221);
+  border-radius: 35px;
+  font-size: 14px;
+  color: #551a8b;
+}
+
+/* When the current-time is added, two timeline items are returned at once.
+This makes them line up horizontally.*/
+.two-items-container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* For the event (dashed line) of the current time */
+.event-time {
+  color: red;
+  transform-origin: center !important;
+  transform: rotate(-90deg) !important;
+  font-size: 24px;
+  margin-left: 0px !important;
+  margin-bottom: 40px;
+}
+
+/* For the icon of current time */
+.icon-time {
+  background-color: red !important;
+}
+
+/* For the time of current time */
+.time-time {
+  color: red;
+}
+
+/* For the track of the scrollbar */
+.scroll-x::-webkit-scrollbar-track {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: rgb(219, 218, 218);
+}
+
+/* For the bar of the scrollbar */
+.scroll-x::-webkit-scrollbar-thumb {
+  background: rgb(109, 160, 221);
+  border-radius: 10px;
+}

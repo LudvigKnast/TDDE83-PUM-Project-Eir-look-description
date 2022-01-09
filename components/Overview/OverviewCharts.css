@@ -1,0 +1,27 @@
+/*Wrapper for the charts, column to show buttons under the chart*/
+.chart-overview-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.chart-button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*Sets width of buttons for nurse view*/
+.chart-button-div-nurse {
+  width: 50%;
+}
+
+/*Sets width of buttons for doctor view*/
+.chart-button-div-doctor {
+  width: 25%;
+}
+
+/*Set font size for buttons*/
+.chart-button-wrapper .button {
+  font-size: small !important;
+}

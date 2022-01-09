@@ -1,0 +1,271 @@
+:root {
+  color: #1f78b4;
+}
+
+/*Wrapper for the overview for nurses with the grid layout*/
+.overview-wrapper-nurse {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: 40% 10% 25% 25%;
+  grid-template-rows: 33% 33% 34%;
+  grid-template-areas:
+    "information vitals journal journal"
+    "timeline timeline timeline timeline"
+    "vitalsgraph vitalsgraph lab ordination";
+  justify-items: center;
+  padding: 0.5rem;
+  font-size: smaller;
+}
+
+/*Wrapper for the overview for doctors with the grid layout*/
+.overview-wrapper-doctor {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: 25% 30% 5% 40%;
+  grid-template-rows: 33% 33% 34%;
+  grid-template-areas:
+    "information ordination vitalsgraph vitalsgraph"
+    "timeline timeline timeline timeline"
+    "ekg ekg ekg lab";
+  justify-items: center;
+  padding: 0.5rem;
+  font-size: smaller;
+}
+
+/*Grid pos for info box*/
+.overview-container {
+  grid-area: information;
+  width: 100%;
+  height: 100%;
+}
+
+/*Overwrite standard link settings*/
+.overview-link {
+  text-decoration: none;
+}
+
+/*Sets the font for everything written within the boxes with h1 or p*/
+.overview-box h1,
+.overview-box p {
+  font-family: Roboto, sans-serif;
+}
+
+/*Design of the blue box*/
+.overview-box {
+  padding: 1rem;
+  border: 2px solid #6da0dd;
+  border-radius: 30px;
+  background-color: rgba(109, 160, 221, 0.07);
+}
+
+/*Font setting for h1 in blue boxes*/
+.overview-box h1 {
+  font-size: small;
+  font-weight: normal;
+  color: #1f78b4;
+  text-decoration: underline;
+}
+
+/*Font setting for p in blue boxes*/
+.overview-box p {
+  font-size: small;
+  font-weight: normal;
+  color: #1f78b4;
+}
+
+/*Font and padding settings for table data in blue box*/
+.overview-box td {
+  font-size: small;
+  font-weight: normal;
+  color: #1f78b4;
+  font-weight: bold;
+  padding-top: 0%;
+  padding-bottom: 2%;
+  padding-left: 0%;
+}
+
+/*Sets the area for vitals measurement boxes in nurse view and specify being rendered in column*/
+.overview-link .measurement-container {
+  grid-area: vitals;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*Styling for the vitals measurement boxes*/
+.overview-link .measurement-boxes {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 75px;
+  width: 100%;
+  margin-bottom: 4%;
+  height: 32%;
+  border: 2px solid #6da0ddb2;
+  border-radius: 25px;
+  background-color: rgba(109, 160, 221, 0.2);
+  align-items: center;
+  justify-content: center;
+}
+
+/*Sets position of top text in measurement boxes*/
+.measurement-boxes > .top {
+  position: absolute;
+  top: 0;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+/*Sets font size of span in measurement boxes*/
+.measurement-boxes span {
+  font-size: 2rem;
+}
+
+/*Temporary css for showing a value is extreme*/
+.measurement-boxes > .temp-span {
+  color: red;
+}
+
+/*Sets position of bottom text in measurement boxes*/
+.measurement-boxes > .bottom {
+  position: absolute;
+  bottom: 0;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+/*Sets the area for ordination-container with ordination and infarter/utfarter*/
+.ordination-container {
+  grid-area: ordination;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*Sets height for ordination box*/
+.ordinations-box {
+  height: 48%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.ordinations-box td{
+  font-size: max(1vw, 10px);
+}
+
+/*sets the are for the vitalsgraph and adds a scroll for overflow to fit into the grid (temporary fix)*/
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  grid-area: vitalsgraph;
+  position: relative;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+/* overwrite timeline css parkour to make it fit into overview page*/
+/*This is not a sustainable approach, seems like you have to fix this everytime they make changes*/
+.overview-timeline-container {
+  grid-area: timeline;
+  width: 100%;
+  height: 95%;
+  display: flex;
+  align-self: center;
+}
+
+.overview-timeline-container .scroll-x {
+  height: 100%;
+  box-shadow: none;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+  border: 2px solid rgb(109, 160, 221);
+  border-radius: 35px;
+  overflow-x: auto;
+}
+
+.overview-timeline-container .scroll-x .timeline-chart {
+  align-items: flex-end;
+  height: 25%;
+}
+
+.overview-timeline-container .scroll-x ul {
+  width: 90%;
+  margin-bottom: 15%;
+}
+
+.overview-timeline-container .scroll-x ul li p {
+  font-size: smaller;
+}
+/*End of overwrite timeline parkour*/
+
+/*Sets the are for the lab box*/
+.lab-overview-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  grid-area: lab;
+}
+
+/*Sets the area for the journal box as well as makes it scrollable*/
+.journal-overview-container {
+  grid-area: journal;
+  overflow-y: scroll;
+}
+
+/*Sets the padding for the journal overview container for doctor overview */
+.doctor-overview {
+  padding: 1rem;
+}
+
+/*Sets font setting and margins for p in journal box*/
+.journal-overview-container p {
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+
+/*Sets area for the EKG, MRI, Journal box*/
+.ekg-overview-container {
+  grid-area: ekg;
+  width: 98%;
+  height: 100%;
+  margin-right: 2%;
+  overflow: auto;
+}
+
+.journal-overview-container::-webkit-scrollbar-track,
+.overview-timeline-container .scroll-x::-webkit-scrollbar-track,
+.ordinations-box::-webkit-scrollbar-track,
+.ecg-container::-webkit-scrollbar-track {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background: rgb(219, 218, 218);
+}
+
+.journal-overview-container::-webkit-scrollbar-thumb,
+.overview-timeline-container .scroll-x::-webkit-scrollbar-thumb,
+.ordinations-box::-webkit-scrollbar-thumb,
+.ecg-container::-webkit-scrollbar-thumb {
+  background: rgb(202, 182, 182);
+  border-radius: 10px;
+}
+
+/*Sets the space for the rontgen picture*/
+.rontgen-picture {
+  height: 30%;
+  width: 30%;
+}
+
+.rontgen-picture img {
+  height: 100%;
+  width: auto;
+}

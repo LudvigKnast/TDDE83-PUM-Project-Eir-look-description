@@ -1,0 +1,89 @@
+/* Container for the whole item. Stacks event, line-dot-line, and time vertically */
+.timeline-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: 30px;
+  width: 80px;
+}
+
+/* Stacks the icon surrounded by two dashes horizontally */
+.line-dot-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Size and color of the icon */
+.icon-dot {
+  background-color: rgb(109, 160, 221);
+  color: white;
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+/* Color and size of the dashes */
+.timeline-item-line {
+  width: 30px;
+  color: rgb(109, 160, 221);
+}
+
+/* For the event text. The reason for the grid-row and -col is to make the extra info
+from the hover-on be displayed over this text. */
+.timeline-item-event {
+  grid-row: 1;
+  grid-column: 1;
+  transform-origin: bottom left;
+  transform: rotate(-45deg);
+  margin-left: 70px;
+  width: 100px;
+}
+
+/* Makes the linked events look like normal text */
+.timeline-item-event a {
+  text-decoration: none;
+  color: #551a8b;
+}
+
+/* Container for the event and the extra hover-on info */
+.timeline-event-hover-container {
+  width: 40px;
+  display: grid;
+  justify-content: center;
+  text-align: left;
+  position: relative;
+}
+
+/* For the hover-on extra info. Places it on top of the event text in a box */
+.timeline-hover {
+  grid-row: 1;
+  grid-column: 1;
+  font-size: 16px;
+  width: 150px;
+  background-color: rgb(109, 160, 221);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  margin-left: 10px;
+  bottom: 7px;
+  z-index: 999;
+}
+
+/* The little triangle (pointer) in the bottom of the box */
+.timeline-hover::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(109, 160, 221) transparent transparent transparent;
+}

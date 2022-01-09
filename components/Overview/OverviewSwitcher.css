@@ -1,0 +1,53 @@
+/*Wrapper for the switcher blue box, grid to get them to show up as wanted*/
+.switcher-overview-wrapper {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 90% 10%;
+    justify-content: space-between;
+    grid-template-areas: 
+        "contents contents"
+        "nothing buttons";
+    justify-items: center;
+    font-size: smaller;
+  }
+  
+  /*Get the buttons to show on a row*/
+  .switcher-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    grid-area: buttons;
+  }
+
+  /*Sets that the right compnent gets displayed in the contents grid-area*/
+  .overview-switcher-div {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    grid-area: contents;
+    overflow: auto;
+  }
+
+  .overview-switcher-div::-webkit-scrollbar-track {
+  margin-top: 14px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  border-radius: 10px;
+  background: rgb(219, 218, 218);
+}
+
+.overview-switcher-div::-webkit-scrollbar-thumb {
+  background: rgb(202, 182, 182);
+  border-radius: 10px;
+}
+  
+  /*Sets the buttons width*/
+  .switcher-button-div-doctor {
+    width: 100%;
+  }
+  
+  /*Sets font-size for buttons in the button div*/
+  .switcher-button-div button {
+    font-size: small;
+  }

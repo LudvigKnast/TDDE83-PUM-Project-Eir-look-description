@@ -1,0 +1,71 @@
+.lab-table-container {
+  width: 80%;
+}
+
+.lab-table {
+  width: 100%;
+  min-width: 540px;
+  border-collapse: collapse;
+}
+
+.lab-table-header {
+  height: 30px;
+  padding-left: 5px;
+  text-align: left;
+  font-size: 20px;
+  background-color: rgb(109, 160, 221);
+  color: white;
+  border: 1px solid grey;
+}
+
+.lab-table tr,
+.lab-table td,
+.lab-date-header {
+  border: 1px solid grey;
+  color: black;
+  font-size: 14px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+}
+
+.lab-date-header {
+  background-color: lightgrey;
+}
+
+/* To remove the borders from the top-left */
+.empty-th {
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+}
+
+/* Sets the width for the columns */
+.lab-name {
+  width: 50%;
+}
+
+/* Sets the width for the columns */
+.lab-value,
+.lab-right {
+  width: 25%;
+}
+
+.red-val {
+  color: red !important;
+}
+
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+  padding: 0;
+}
+
+/* Gives a cell a color when hovered on */
+.lab-hover:hover {
+  background-color: rgb(145, 184, 229);
+}
+
+/* Size and position for the loading animation */
+.lab-table-skeleton {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 20px;
+}

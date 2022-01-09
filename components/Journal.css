@@ -1,0 +1,186 @@
+:root {
+  color: #1f78b4;
+}
+
+.journal-container {
+  display: grid;
+  height: 90%;
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  grid-template-columns: 100%;
+  grid-template-rows: 75% 25%;
+  grid-template-areas:
+    "journal"
+    "health-problem";
+  grid-gap: 5%;
+  justify-items: center;
+  padding: 0.5rem;
+  font-size: smaller;
+}
+
+.journal-skeleton {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 20px;
+}
+
+.journal {
+  border-collapse: collapse;
+  width: 90%;
+  height: 100%;
+  grid-area: journal;
+  margin: 10px;
+}
+
+/*Design of the blue box*/
+.journal {
+  padding: 1rem;
+  border: 3px solid #6da0dd;
+  border-radius: 30px;
+  box-shadow: 3px 4px 5px 2px grey;
+  background-color: rgba(109, 160, 221, 0.07);
+  overflow: auto;
+}
+
+.journal-box {
+  padding: 1rem;
+  border: 3px solid #6da0dd;
+  border-radius: 30px;
+  box-shadow: 3px 4px 5px 2px grey;
+  background-color: rgba(109, 160, 221, 0.07);
+  margin: 1%;
+  margin-bottom: 2%;
+}
+
+.journal-title h2 {
+  font-size: 20px;
+  color: black;
+}
+
+.journal-box h3 {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+
+.journal-box h4 {
+  font-size: 15px;
+  font-weight: normal;
+  color: black;
+}
+
+.journal-text {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-areas:
+    "Title Info";
+  margin-top: 1%;
+}
+
+.journal-text-title {
+  grid-area: Title;
+  overflow: auto;
+}
+
+.journal-text-info {
+  grid-area: Info;
+}
+
+
+.journal-health-problem::-webkit-scrollbar-track {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background: rgb(219, 218, 218);
+}
+
+.journal-health-problem::-webkit-scrollbar-thumb {
+  background: rgb(202, 182, 182);
+  border-radius: 10px;
+}
+
+/*Font setting for h1 in blue boxes*/
+.journal h1 {
+  font-size: 32px;
+  font-weight: 100;
+  color: white;
+  background: #6da0dd;
+  border-radius: 10px;
+  text-align: center;
+  margin: 5px;
+}
+
+.journal p {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+.journal-search {
+  width: 98%;
+  display: block;
+  margin-top: 10px;
+  margin-left: 1%;
+}
+
+.journal-search-input {
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 10px;
+  border: 3px solid #6da0dd;
+  margin-bottom: 10px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: -16px;
+}
+
+.journal-health-problem {
+  border-collapse: collapse;
+  width: 90%;
+  height: 100%;
+  grid-area: health-problem;
+  margin: 10px;
+  padding: 1rem;
+  border: 3px solid #6da0dd;
+  border-radius: 30px;
+  box-shadow: 3px 4px 5px 2px grey;
+  background-color: rgba(109, 160, 221, 0.07);
+  overflow: auto;
+}
+
+.journal-health-problem::-webkit-scrollbar-track,
+.journal::-webkit-scrollbar-track {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background: rgb(219, 218, 218);
+}
+
+.journal-health-problem::-webkit-scrollbar-thumb,
+.journal::-webkit-scrollbar-thumb {
+  background: rgb(202, 182, 182);
+  border-radius: 10px;
+}
+
+/*Font setting for h1 in blue boxes*/
+.journal-health-problem h1 {
+  font-size: 32px;
+  font-weight: 100;
+  color: white;
+  background: #6da0dd;
+  border-radius: 10px;
+  text-align: center;
+  margin: 5px;
+}
+
+.journal-health-problem p {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}

@@ -1,0 +1,50 @@
+.ecg-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 550px;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 1rem;
+  overflow: auto;
+  }
+  
+
+ .ecg-container .current{
+   display:flex;
+  flex-direction: row;
+
+	border-color: grey;
+	border-style: solid;
+	border-width: 0.1em;
+	border-radius: 1em;
+  margin-bottom: 1em;
+  padding: 0.52em;
+}
+
+.ecg-container .previous {
+  display: flex;
+  flex-direction: row;
+
+  border-color: grey;
+	border-style: solid;
+	border-width: 0.1em;
+	border-radius: 1em;
+  padding: 0.52em;
+}
+
+.ecg-container .selector {
+  justify-content: center;
+  border-color: grey;
+  background-color: lightcoral;
+	border-style: solid;
+  border-width: 0.1em;
+	border-radius: 1em;
+  margin-left: 1.5%;
+  padding: 0px;
+}
+
+
+ .ecg-chart {
+  justify-content:center;
+
+}

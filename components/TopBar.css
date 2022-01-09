@@ -1,0 +1,79 @@
+:root {
+  --ess-color: green;
+  --vitals-color: yellow;
+}
+
+.modal {
+  display: flex;
+}
+
+.header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+
+.popup-line {
+  width: 100%;
+}
+.popup-line-red {
+  width: 100%;
+  color: red;
+}
+
+.topbar-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.gender {
+  display: flex;
+}
+
+.triage {
+  color: transparent;
+  background: linear-gradient(
+    to right,
+    var(--ess-color) 0%,
+    var(--ess-color) 50%,
+    var(--vitals-color) 50%,
+    var(--vitals-color) 100%
+  );
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+
+.topbar-item {
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+}
+
+.popup-content {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.popup-content::-webkit-scrollbar-track {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background: rgb(219, 218, 218);
+}
+
+.popup-content::-webkit-scrollbar-thumb {
+  background: rgb(202, 182, 182);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .no-mobile {
+    display: none;
+  }
+}

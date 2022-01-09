@@ -1,0 +1,16 @@
+.ecgsidebar-container{
+    justify-content: right;
+    padding-top: 5%;
+
+}
+
+.ecg-button{
+    justify-content: middle;
+	width: 90%;
+
+
+}
+
+.ecg-time-container{
+    justify-content: center;
+}

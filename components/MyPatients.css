@@ -1,0 +1,62 @@
+.table-container {
+  border-collapse: collapse;
+  min-width: 550px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.table-container thead > tr {
+  background-color: #6da0ddb2;
+  text-align: left;
+  font-weight: bold;
+}
+
+.table-container th,
+td {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 0;
+
+  /* This SHOULD work, wtfff?!? */
+  /* padding: 20px, 10px, 20px, 0px; */
+}
+
+.table-container tbody > tr:nth-child(even) {
+  background-color: #6da0dd33;
+}
+
+.patient-name {
+  text-decoration: none;
+  color: black;
+}
+
+.patients-team-container .patient-new-info {
+  width: 90px;
+}
+
+.patients-team-container .patient-checkup-time {
+  width: 90px;
+}
+
+.header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+
+.table-link-journal:visited {
+  color: blue;
+}
+
+.ssn-row {
+  font-size: small;
+  background-color: #6da0ddb2;
+}
+
+.datetime-er {
+  font-size: smaller;
+}
+
