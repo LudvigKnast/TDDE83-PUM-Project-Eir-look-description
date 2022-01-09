@@ -1,0 +1,118 @@
+[
+    {
+        "patient_id": 1,
+        "sensitivity": [
+            {
+                "severity": 1,
+                "description": "Nötter"
+            },
+            {
+                "severity": 1,
+                "description": "Bin"
+            }
+        ],
+        "unstructured": "exempel på ej strukturanpassad information 1",
+        "condition": "exempel på medicinskt tillstånd 1",
+        "infection": "exempel på smitta 1"
+    },
+    {
+        "patient_id": 2,
+        "sensitivity": [
+            {
+                "severity": 3,
+                "description": "Gluten"
+            },
+            {
+                "severity": 2,
+                "description": "Bin"
+            }
+        ]
+    },
+    {
+        "patient_id": 3,
+        "sensitivity": [
+            {
+                "severity": 2,
+                "description": "Pepparkaka"
+            }
+        ],
+        "unstructured": "exempel på ej strukturanpassad information 2",
+        "infection": "exempel på smitta 2",
+        "deviation": "exempel på vårdrutinavvikelse 1"
+    },
+    {
+        "patient_id": 4,
+        "unstructured": "exempel på ej strukturanpassad information 3",
+        "condition": "exempel på medicinskt tillstånd 2",
+        "infection": "exempel på smitta 3"
+    },
+    {
+        "patient_id": 5,
+        "sensitivity": [
+            {
+                "severity": 2,
+                "description": "Vatten"
+            },
+            {
+                "severity": 1,
+                "description": "Bin"
+            }
+        ],
+        "infection": "exempel på smitta 4",
+        "deviation": "exempel på vårdrutinavvikelse 2"
+    },
+    {
+        "patient_id": 6
+    },
+    {
+        "patient_id": 7,
+        "sensitivity": [
+            {
+                "severity": 1,
+                "description": "Gluten"
+            }
+        ],
+        "unstructured": "exempel på ej strukturanpassad information 4",
+        "condition": "exempel på medicinskt tillstånd 3",
+        "infection": "exempel på smitta 5"
+    },
+    {
+        "patient_id": 8,
+        "sensitivity": [
+            {
+                "severity": 1,
+                "description": "Ägg"
+            }
+        ],
+        "unstructured": "exempel på ej strukturanpassad information 5",
+        "condition": "exempel på medicinskt tillstånd 4",
+        "infection": "exempel på smitta 6",
+        "deviation": "exempel på vårdrutinavvikelse 3"
+    },
+    {
+        "patient_id": 9,
+        "sensitivity": [
+            {
+                "severity": 2,
+                "description": "Ägg"
+            }
+        ],
+        "unstructured": "exempel på ej strukturanpassad information 6",
+        "condition": "exempel på medicinskt tillstånd 5"
+    },
+    {
+        "patient_id": 10,
+        "sensitivity": [
+            {
+                "severity": 3,
+                "description": "Äpple"
+            }, {
+                "severity": 3,
+                "description": "Påron"
+            }, {
+                "severity": 3,
+                "description": "Vattenmelon"
+            }
+        ]
+    }
+]

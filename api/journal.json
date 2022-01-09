@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "journal": [
+         { 
+          "id" : 1,
+          "Signerat": "Karin Larsson (Sjuksköterska)",
+          "Avdelning": "Kardiologen",
+          "Datum": "2020-10-10 13:37",
+          "Aktuellt hälsoproblem": "Söker akutmottagningen med anledninga av känsla av att hjärtat slår mycket snabbt och obehag i bröstet i anslutning till detta. Besvären började i fredags eftermiddag. Har inte sökt under helgen eftersom det varit Vätternrundan och hon ville inte vara ivägen. Har inte haft några liknande besvär tidigare. Ingen regelrätt bröstsmärta. Lätt yrslig och mycket diskret illamående. Har kunnat äta och dricka. Inga infektionssymtom. Efter betablockad, normofrekvent rytm och patienten uppger då att hon mår i stort sett som vanligt igen.",
+          "Kontaktorsak": "Onormal hjärtryt.",
+          "Bakgrund (Nuvarande hälsoproblem)": "Diabetes typ 2, behandling med både Metmorfin och insulin. Hypertoni. Aortastenos, senaste ekokardiografi 2019. Psoriasis.",
+          "Bakgrund (Alkohol)": "Dricker mindre än 1 glas per månad.",
+          "Bakgrund (Tobak)": "Tidigare rökare, 20 paket/år. Slutat röka ",
+          "Allmäntillstånd": "Opåverkad.",
+          "RLS-85": "1",
+          "Kroppstemperatur": "36.7 °C",
+          "Sköldkörtel": "Palperas utan anmärkning.",
+          "Hud": "Oretad. Normal hudturgor.",
+          "Lungor": "Rena andningsljud över hela lungfälten bilateralt.",
+          "Syremättnad blod (Sp02)": "99%",
+          "Låg habituell mättnad": "Nej",
+          "Andningsfrekvens": "20 /min",
+          "Hjärta": "Lätt oregelbunden, initialt mycket snabb rytm, diskret systoliskt blåsljud med PM parastenalt.",
+          "EKG": "Regelbunden snabb rytm, smala QRS-komplex. Omkontroll EKG med anledning av oregelbunden rytm, då förmaksflimmer med frekvens 120.",
+          "Blodtryck (Systoliskt)": "123 mm [Hg]",
+          "Blodtryck (Diastoliskt)": "88 mm [Hg]",
+          "Blocktryck (Perifer cirkulation)": "Varm om händer",
+          "Hals": "Karotider: Inga blåsljud.",
+          "Nedre extremitet": "Mycket diskret underbenssvullnad.",
+          "Undersökningsresultat": "Normalt blodstatus, normala elektrolyter och kreatinin. CRP&lt;5. Normal APT-tid och PK. Leverstatus med förhöjt GT, inte nytt, aktuellt värde 7,6. NT-ProBNP 1440. Troponin 18 - 19. Normal tyreoideafunktion.",
+          "Bedömning": "Således kvinna med hypertoni och diabetes. Nu debut av vad som uppfattas som förmaksfladder/förmaksflimmer. Inga kardioplumonella inkompensationstecken. Erhåller tablett Seloken 50mg på akutmottagningen, därefter normofrekventfortsatt oregelbunden rytm. Inga kontradiktioner för antikoagulantiabehandling. Sätter in Eliquis och patienten ges information. Uppmanas söka vård i händelse av blödningskomplikation. Uppmanas också höra av sig till akutmottagningen vid händelse av ihållande hjärtklappning, yrsel eller annat obehag. Diskuterar med medicinbakjourdoktor B och sätter därefter in betablockad Metoprolol depottablett 50 mg 1 x 1. Får därefter återgå till hemmet med remiss för eventuell elkonvertering.",
+          "Utförda åtgärder (Behandling)": "Läkemedelsanteckning: Enkel läkemedelsgenomgång utförd. Patienten tar läkemedl enligt listan. Insättes på Eliquis 5 mg 1 x 2 tills vidare. Insättes Metoporol 50 mg depottablett 1 x 1 tills vidare. Remiss till: AK-mottagningen. Hjärtmottagningen."
+          }, 
+          {
+          "id" : 2,
+          "Signerat": "Adam Smith (Läkare)",
+          "Avdelning": "Akutmottagningen",
+          "Datum": "2021-11-29 10:00",
+          "Aktuellt hälsoproblem": "Var nyligen på akutmottagningen på grund av buksmärta. Beskriver lågt sittande buksmärta, har inte skött magen på tio dagar. Sitter långt ner i magen bilateralt. Kissat lite oftare än vanligt, men ingen miktionssveda. Fått utskrivet laxerande läkemedel av vårdcenrtalen, men har inte hämtat ut detta då hon inte visste att det fanns på recept. När undertecknad kommer in har patienten precis skött magen. Använder laxoberaldroppar på morgonen vilket hon hade hemma sedan tidigare. Skötte magen ganska mycket idag på akutmottagningen. Upplever att buksmärtan är lite bättre efter detta. Konstant buksmärta. ",
+          "Kontaktorsak": "Buksmärta. För bakgrund, vad god se doktor A's anteckning från tidigare datum. ",
+          "Allmäntillstånd": "Gott och opåverkat. ",
+          "RLS-85 ": "1",
+          "Kroppstemperatur": "36.7 °C ",
+          "Lungor": "Vesikulära andningsljud bilateralt, inga ronki eller rassel. ",
+          "Syremättnad blod (Sp02)": "99%",
+          "Låg habituell syremättnad": "Nej",
+          "Andningsfrekvens": "14 /min ",
+          "Blodtryck (Systoliskt)": "157 mm [Hg]",
+          "Blodtryck (Diastoliskt)": "103 mm [Hg]",
+          "Puls (Hjärtfrekvens)": "102 /min",
+          "Puls (Oregelbunden)": "Nej",
+          "Buk" : "Normala tarmljud. Mjuk buk. Lätt palpationsöm långt ned kring medellinjen. Ingen släppömhet.",
+          "Ändtarm" : "Per rectum: Känner lite avföring i ampullen, men inget felakom. Inget blod på handsken.",
+          "Undersökningsresultat" : "Natrium 135. ASAT 0,74. Negativ urinsticka.",
+          "Bedömning" : "I samråd med ledningsläkare. Misstänker framförallt förstoppning. Patienten råds att använda Laktulos som hon fått utskrivet av vårdcentralen. Patienten tycker att det känns bättre i magen, tycker det är skönt att magen kommit igång. Får gå hem."
+        }
+      ]
+    }
+  ] 
+  
+  
+  

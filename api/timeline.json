@@ -1,0 +1,932 @@
+[
+  {
+    "id": 1,
+    "timeline": [
+      {
+        "id": 1,
+        "time": "06:13",
+        "event": "Ankomst till akuten",
+        "by_who": "Maria Larsson",
+        "type": "hospital",
+        "info": ""
+      },
+      {
+        "id": 2,
+        "time": "06:27",
+        "event": "Tilldelad v\u00e5rdplats",
+        "by_who": "Carl Svensson",
+        "type": "location",
+        "info": "Rum 27"
+      },
+      {
+        "id": 3,
+        "time": "06:45",
+        "event": "Kollade vitala parametrar",
+        "by_who": "Carl Svensson",
+        "type": "vital_check",
+        "info": ""
+      },
+      {
+        "id": 4,
+        "time": "06:59",
+        "event": "Morfin 2mg",
+        "by_who": "Lena Bengtsson",
+        "type": "medication",
+        "info": ""
+      },
+      {
+        "id": 5,
+        "time": "07:07",
+        "event": "Unders\u00f6ka hj\u00e4rtrytm",
+        "by_who": "Carl Svensson",
+        "type": "ecg",
+        "info": ""
+      },
+      {
+        "id": 6,
+        "time": "07:14",
+        "event": "Tagen till r\u00f6ntgen",
+        "by_who": "Lena Bengtsson",
+        "type": "x-ray",
+        "info": ""
+      },
+      {
+        "id": 7,
+        "time": "07:20",
+        "event": "R\u00f6ntgen",
+        "by_who": "Lena Bengtsson",
+        "type": "x-ray",
+        "info": ""
+      },
+      {
+        "id": 8,
+        "time": "07:31",
+        "event": "Blodprov taget",
+        "by_who": "Carl Svensson",
+        "type": "test_taken",
+        "info": ""
+      },
+      {
+        "id": 9,
+        "time": "07:56",
+        "event": "Blodprov resultat",
+        "by_who": "Lena Bengtsson",
+        "type": "test_result_green",
+        "info": "B-Trombocyter: 162, B-Erytrocyter: 4,9, P-Kalium: 3,7"
+      },
+      {
+        "id": 10,
+        "time": "19:39",
+        "event": "Utdelning av medicin",
+        "by_who": "Carl Svensson",
+        "type": "medication",
+        "info": ""
+      },
+      {
+        "id": 11,
+        "time": "20:15",
+        "event": "Kontroll",
+        "by_who": "Carl Svensson",
+        "type": "check_up",
+        "info": ""
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "timeline": [
+      {
+        "id": 1,
+        "time": "06:13",
+        "event": "Ankomst till akuten",
+        "by_who": "Maria Larsson",
+        "type": "hospital",
+        "info": ""
+      },
+      {
+        "id": 2,
+        "time": "06:27",
+        "event": "Tilldelad v\u00e5rdplats",
+        "by_who": "Carl Svensson",
+        "type": "location",
+        "info": "Rum 27"
+      },
+      {
+        "id": 3,
+        "time": "06:45",
+        "event": "Kollade vitala parametrar",
+        "by_who": "Carl Svensson",
+        "type": "vital_check",
+        "info": ""
+      },
+      {
+        "id": 4,
+        "time": "06:59",
+        "event": "Morfin 2mg",
+        "by_who": "Lena Bengtsson",
+        "type": "medication",
+        "info": ""
+      },
+      {
+        "id": 5,
+        "time": "07:07",
+        "event": "Unders\u00f6ka hj\u00e4rtrytm",
+        "by_who": "Carl Svensson",
+        "type": "ecg",
+        "info": ""
+      },
+      {
+        "id": 6,
+        "time": "07:14",
+        "event": "Tagen till r\u00f6ntgen",
+        "by_who": "Lena Bengtsson",
+        "type": "x-ray",
+        "info": ""
+      },
+      {
+        "id": 7,
+        "time": "07:20",
+        "event": "R\u00f6ntgen",
+        "by_who": "Lena Bengtsson",
+        "type": "x-ray",
+        "info": ""
+      },
+      {
+        "id": 8,
+        "time": "07:31",
+        "event": "Blodprov taget",
+        "by_who": "Carl Svensson",
+        "type": "test_taken",
+        "info": ""
+      },
+      {
+        "id": 9,
+        "time": "07:56",
+        "event": "Blodprov resultat",
+        "by_who": "Lena Bengtsson",
+        "type": "test_result_green",
+        "info": "B-Trombocyter: 162, B-Erytrocyter: 4,9, P-Kalium: 3,7"
+      },
+      {
+        "id": 10,
+        "time": "19:39",
+        "event": "Utdelning av medicin",
+        "by_who": "Carl Svensson",
+        "type": "medication",
+        "info": ""
+      },
+      {
+        "id": 11,
+        "time": "20:15",
+        "event": "Kontroll",
+        "by_who": "Carl Svensson",
+        "type": "check_up",
+        "info": ""
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "timeline": [
+      {
+        "id": 1,
+        "time": "06:13",
+        "event": "Ankomst till akuten",
+        "by_who": "Maria Larsson",
+        "type": "hospital",
+        "info": ""
+      },
+      {
+        "id": 2,
+        "time": "06:27",
+        "event": "Tilldelad v\u00e5rdplats",
+        "by_who": "Carl Svensson",
+        "type": "location",
+        "info": "Rum 27"
+      },
+      {
+        "id": 3,
+        "time": "06:45",
+        "event": "Kollade vitala parametrar",
+        "by_who": "Carl Svensson",
+        "type": "vital_check",
+        "info": ""
+      },
+      {
+        "id": 4,
+        "time": "06:59",
+        "event": "Morfin 2mg",
+        "by_who": "Lena Bengtsson",
+        "type": "medication",
+        "info": ""
+      },
+      {
+        "id": 5,
+        "time": "07:07",
+        "event": "Unders\u00f6ka hj\u00e4rtrytm",
+        "by_who": "Carl Svensson",
+        "type": "ecg",
+        "info": ""
+      },
+      {
+        "id": 6,
+        "time": "07:14",
+        "event": "Tagen till r\u00f6ntgen",
+        "by_who": "Lena Bengtsson",
+        "type": "x-ray",
+        "info": ""
+      },
+      {
+        "id": 7,
+        "time": "07:20",
+        "event": "R\u00f6ntgen",
+        "by_who": "Lena Bengtsson",
+        "type": "x-ray",
+        "info": ""
+      },
+      {
+        "id": 8,
+        "time": "07:31",
+        "event": "Blodprov taget",
+        "by_who": "Carl Svensson",
+        "type": "test_taken",
+        "info": ""
+      },
+      {
+        "id": 9,
+        "time": "07:56",
+        "event": "Blodprov resultat",
+        "by_who": "Lena Bengtsson",
+        "type": "test_result_green",
+        "info": "B-Trombocyter: 162, B-Erytrocyter: 4,9, P-Kalium: 3,7"
+      },
+      {
+        "id": 10,
+        "time": "19:39",
+        "event": "Utdelning av medicin",
+        "by_who": "Carl Svensson",
+        "type": "medication",
+        "info": ""
+      },
+      {
+        "id": 11,
+        "time": "20:15",
+        "event": "Kontroll",
+        "by_who": "Carl Svensson",
+        "type": "check_up",
+        "info": ""
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "timeline": [
+      {
+        "id": 1,
+        "time": "06:13",
+        "event": "Ankomst till akuten",
+        "by_who": "Maria Larsson",
+        "type": "hospital",
+        "info": ""
+      },
+      {
+        "id": 2,
+        "time": "06:27",
+        "event": "Tilldelad v\u00e5rdplats",
+        "by_who": "Carl Svensson",
+        "type": "location",
+        "info": "Rum 27"
+      },
+      {
+        "id": 3,
+        "time": "06:45",
+        "event": "Kollade vitala parametrar",
+        "by_who": "Carl Svensson",
+        "type": "vital_check",
+        "info": ""
+      },
+      {
+        "id": 4,
+        "time": "06:59",
+        "event": "Morfin 2mg",
+        "by_who": "Lena Bengtsson",
+        "type": "medication",
+        "info": ""
+      },
+      {
+        "id": 5,
+        "time": "07:07",
+        "event": "Unders\u00f6ka hj\u00e4rtrytm",
+        "by_who": "Carl Svensson",
+        "type": "ecg",
+        "info": ""
+      },
+      {
+        "id": 6,
+        "time": "07:14",
+        "event": "Tagen till r\u00f6ntgen",
+        "by_who": "Lena Bengtsson",
+        "type": "x-ray",
+        "info": ""
+      },
+      {
+        "id": 7,
+        "time": "07:20",
+        "event": "R\u00f6ntgen",
+        "by_who": "Lena Bengtsson",
+        "type": "x-ray",
+        "info": ""
+      },
+      {
+        "id": 8,
+        "time": "07:31",
+        "event": "Blodprov taget",
+        "by_who": "Carl Svensson",
+        "type": "test_taken",
+        "info": ""
+      },
+      {
+        "id": 9,
+        "time": "07:56",
+        "event": "Blodprov resultat",
+        "by_who": "Lena Bengtsson",
+        "type": "test_result_green",
+        "info": "B-Trombocyter: 162, B-Erytrocyter: 4,9, P-Kalium: 3,7"
+      },
+      {
+        "id": 10,
+        "time": "19:39",
+        "event": "Utdelning av medicin",
+        "by_who": "Carl Svensson",
+        "type": "medication",
+        "info": ""
+      },
+      {
+        "id": 11,
+        "time": "20:15",
+        "event": "Kontroll",
+        "by_who": "Carl Svensson",
+        "type": "check_up",
+        "info": ""
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "timeline": [
+      {
+        "id": 1,
+        "time": "06:13",
+        "event": "Ankomst till akuten",
+        "by_who": "Maria Larsson",
+        "type": "hospital",
+        "info": ""
+      },
+      {
+        "id": 2,
+        "time": "06:27",
+        "event": "Tilldelad v\u00e5rdplats",
+        "by_who": "Carl Svensson",
+        "type": "location",
+        "info": "Rum 27"
+      },
+      {
+        "id": 3,
+        "time": "06:45",
+        "event": "Kollade vitala parametrar",
+        "by_who": "Carl Svensson",
+        "type": "vital_check",
+        "info": ""
+      },
+      {
+        "id": 4,
+        "time": "06:59",
+        "event": "Morfin 2mg",
+        "by_who": "Lena Bengtsson",
+        "type": "medication",
+        "info": ""
+      },
+      {
+        "id": 5,
+        "time": "07:07",
+        "event": "Unders\u00f6ka hj\u00e4rtrytm",
+        "by_who": "Carl Svensson",
+        "type": "ecg",
+        "info": ""
+      },
+      {
+        "id": 6,
+        "time": "07:14",
+        "event": "Tagen till r\u00f6ntgen",
+        "by_who": "Lena Bengtsson",
+        "type": "x-ray",
+        "info": ""
+      },
+      {
+        "id": 7,
+        "time": "07:20",
+        "event": "R\u00f6ntgen",
+        "by_who": "Lena Bengtsson",
+        "type": "x-ray",
+        "info": ""
+      },
+      {
+        "id": 8,
+        "time": "07:31",
+        "event": "Blodprov taget",
+        "by_who": "Carl Svensson",
+        "type": "test_taken",
+        "info": ""
+      },
+      {
+        "id": 9,
+        "time": "07:56",
+        "event": "Blodprov resultat",
+        "by_who": "Lena Bengtsson",
+        "type": "test_result_green",
+        "info": "B-Trombocyter: 162, B-Erytrocyter: 4,9, P-Kalium: 3,7"
+      },
+      {
+        "id": 10,
+        "time": "19:39",
+        "event": "Utdelning av medicin",
+        "by_who": "Carl Svensson",
+        "type": "medication",
+        "info": ""
+      },
+      {
+        "id": 11,
+        "time": "20:15",
+        "event": "Kontroll",
+        "by_who": "Carl Svensson",
+        "type": "check_up",
+        "info": ""
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "timeline": [
+      {
+        "id": 1,
+        "time": "06:13",
+        "event": "Ankomst till akuten",
+        "by_who": "Maria Larsson",
+        "type": "hospital",
+        "info": ""
+      },
+      {
+        "id": 2,
+        "time": "06:27",
+        "event": "Tilldelad v\u00e5rdplats",
+        "by_who": "Carl Svensson",
+        "type": "location",
+        "info": "Rum 27"
+      },
+      {
+        "id": 3,
+        "time": "06:45",
+        "event": "Kollade vitala parametrar",
+        "by_who": "Carl Svensson",
+        "type": "vital_check",
+        "info": ""
+      },
+      {
+        "id": 4,
+        "time": "06:59",
+        "event": "Morfin 2mg",
+        "by_who": "Lena Bengtsson",
+        "type": "medication",
+        "info": ""
+      },
+      {
+        "id": 5,
+        "time": "07:07",
+        "event": "Unders\u00f6ka hj\u00e4rtrytm",
+        "by_who": "Carl Svensson",
+        "type": "ecg",
+        "info": ""
+      },
+      {
+        "id": 6,
+        "time": "07:14",
+        "event": "Tagen till r\u00f6ntgen",
+        "by_who": "Lena Bengtsson",
+        "type": "x-ray",
+        "info": ""
+      },
+      {
+        "id": 7,
+        "time": "07:20",
+        "event": "R\u00f6ntgen",
+        "by_who": "Lena Bengtsson",
+        "type": "x-ray",
+        "info": ""
+      },
+      {
+        "id": 8,
+        "time": "07:31",
+        "event": "Blodprov taget",
+        "by_who": "Carl Svensson",
+        "type": "test_taken",
+        "info": ""
+      },
+      {
+        "id": 9,
+        "time": "07:56",
+        "event": "Blodprov resultat",
+        "by_who": "Lena Bengtsson",
+        "type": "test_result_green",
+        "info": "B-Trombocyter: 162, B-Erytrocyter: 4,9, P-Kalium: 3,7"
+      },
+      {
+        "id": 10,
+        "time": "19:39",
+        "event": "Utdelning av medicin",
+        "by_who": "Carl Svensson",
+        "type": "medication",
+        "info": ""
+      },
+      {
+        "id": 11,
+        "time": "20:15",
+        "event": "Kontroll",
+        "by_who": "Carl Svensson",
+        "type": "check_up",
+        "info": ""
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "timeline": [
+      {
+        "id": 1,
+        "time": "06:13",
+        "event": "Ankomst till akuten",
+        "by_who": "Maria Larsson",
+        "type": "hospital",
+        "info": ""
+      },
+      {
+        "id": 2,
+        "time": "06:27",
+        "event": "Tilldelad v\u00e5rdplats",
+        "by_who": "Carl Svensson",
+        "type": "location",
+        "info": "Rum 27"
+      },
+      {
+        "id": 3,
+        "time": "06:45",
+        "event": "Kollade vitala parametrar",
+        "by_who": "Carl Svensson",
+        "type": "vital_check",
+        "info": ""
+      },
+      {
+        "id": 4,
+        "time": "06:59",
+        "event": "Morfin 2mg",
+        "by_who": "Lena Bengtsson",
+        "type": "medication",
+        "info": ""
+      },
+      {
+        "id": 5,
+        "time": "07:07",
+        "event": "Unders\u00f6ka hj\u00e4rtrytm",
+        "by_who": "Carl Svensson",
+        "type": "ecg",
+        "info": ""
+      },
+      {
+        "id": 6,
+        "time": "07:14",
+        "event": "Tagen till r\u00f6ntgen",
+        "by_who": "Lena Bengtsson",
+        "type": "x-ray",
+        "info": ""
+      },
+      {
+        "id": 7,
+        "time": "07:20",
+        "event": "R\u00f6ntgen",
+        "by_who": "Lena Bengtsson",
+        "type": "x-ray",
+        "info": ""
+      },
+      {
+        "id": 8,
+        "time": "07:31",
+        "event": "Blodprov taget",
+        "by_who": "Carl Svensson",
+        "type": "test_taken",
+        "info": ""
+      },
+      {
+        "id": 9,
+        "time": "07:56",
+        "event": "Blodprov resultat",
+        "by_who": "Lena Bengtsson",
+        "type": "test_result_green",
+        "info": "B-Trombocyter: 162, B-Erytrocyter: 4,9, P-Kalium: 3,7"
+      },
+      {
+        "id": 10,
+        "time": "19:39",
+        "event": "Utdelning av medicin",
+        "by_who": "Carl Svensson",
+        "type": "medication",
+        "info": ""
+      },
+      {
+        "id": 11,
+        "time": "20:15",
+        "event": "Kontroll",
+        "by_who": "Carl Svensson",
+        "type": "check_up",
+        "info": ""
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "timeline": [
+      {
+        "id": 1,
+        "time": "06:13",
+        "event": "Ankomst till akuten",
+        "by_who": "Maria Larsson",
+        "type": "hospital",
+        "info": ""
+      },
+      {
+        "id": 2,
+        "time": "06:27",
+        "event": "Tilldelad v\u00e5rdplats",
+        "by_who": "Carl Svensson",
+        "type": "location",
+        "info": "Rum 27"
+      },
+      {
+        "id": 3,
+        "time": "06:45",
+        "event": "Kollade vitala parametrar",
+        "by_who": "Carl Svensson",
+        "type": "vital_check",
+        "info": ""
+      },
+      {
+        "id": 4,
+        "time": "06:59",
+        "event": "Morfin 2mg",
+        "by_who": "Lena Bengtsson",
+        "type": "medication",
+        "info": ""
+      },
+      {
+        "id": 5,
+        "time": "07:07",
+        "event": "Unders\u00f6ka hj\u00e4rtrytm",
+        "by_who": "Carl Svensson",
+        "type": "ecg",
+        "info": ""
+      },
+      {
+        "id": 6,
+        "time": "07:14",
+        "event": "Tagen till r\u00f6ntgen",
+        "by_who": "Lena Bengtsson",
+        "type": "x-ray",
+        "info": ""
+      },
+      {
+        "id": 7,
+        "time": "07:20",
+        "event": "R\u00f6ntgen",
+        "by_who": "Lena Bengtsson",
+        "type": "x-ray",
+        "info": ""
+      },
+      {
+        "id": 8,
+        "time": "07:31",
+        "event": "Blodprov taget",
+        "by_who": "Carl Svensson",
+        "type": "test_taken",
+        "info": ""
+      },
+      {
+        "id": 9,
+        "time": "07:56",
+        "event": "Blodprov resultat",
+        "by_who": "Lena Bengtsson",
+        "type": "test_result_green",
+        "info": "B-Trombocyter: 162, B-Erytrocyter: 4,9, P-Kalium: 3,7"
+      },
+      {
+        "id": 10,
+        "time": "19:39",
+        "event": "Utdelning av medicin",
+        "by_who": "Carl Svensson",
+        "type": "medication",
+        "info": ""
+      },
+      {
+        "id": 11,
+        "time": "20:15",
+        "event": "Kontroll",
+        "by_who": "Carl Svensson",
+        "type": "check_up",
+        "info": ""
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "timeline": [
+      {
+        "id": 1,
+        "time": "06:13",
+        "event": "Ankomst till akuten",
+        "by_who": "Maria Larsson",
+        "type": "hospital",
+        "info": ""
+      },
+      {
+        "id": 2,
+        "time": "06:27",
+        "event": "Tilldelad v\u00e5rdplats",
+        "by_who": "Carl Svensson",
+        "type": "location",
+        "info": "Rum 27"
+      },
+      {
+        "id": 3,
+        "time": "06:45",
+        "event": "Kollade vitala parametrar",
+        "by_who": "Carl Svensson",
+        "type": "vital_check",
+        "info": ""
+      },
+      {
+        "id": 4,
+        "time": "06:59",
+        "event": "Morfin 2mg",
+        "by_who": "Lena Bengtsson",
+        "type": "medication",
+        "info": ""
+      },
+      {
+        "id": 5,
+        "time": "07:07",
+        "event": "Unders\u00f6ka hj\u00e4rtrytm",
+        "by_who": "Carl Svensson",
+        "type": "ecg",
+        "info": ""
+      },
+      {
+        "id": 6,
+        "time": "07:14",
+        "event": "Tagen till r\u00f6ntgen",
+        "by_who": "Lena Bengtsson",
+        "type": "x-ray",
+        "info": ""
+      },
+      {
+        "id": 7,
+        "time": "07:20",
+        "event": "R\u00f6ntgen",
+        "by_who": "Lena Bengtsson",
+        "type": "x-ray",
+        "info": ""
+      },
+      {
+        "id": 8,
+        "time": "07:31",
+        "event": "Blodprov taget",
+        "by_who": "Carl Svensson",
+        "type": "test_taken",
+        "info": ""
+      },
+      {
+        "id": 9,
+        "time": "07:56",
+        "event": "Blodprov resultat",
+        "by_who": "Lena Bengtsson",
+        "type": "test_result_green",
+        "info": "B-Trombocyter: 162, B-Erytrocyter: 4,9, P-Kalium: 3,7"
+      },
+      {
+        "id": 10,
+        "time": "19:39",
+        "event": "Utdelning av medicin",
+        "by_who": "Carl Svensson",
+        "type": "medication",
+        "info": ""
+      },
+      {
+        "id": 11,
+        "time": "20:15",
+        "event": "Kontroll",
+        "by_who": "Carl Svensson",
+        "type": "check_up",
+        "info": ""
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "timeline": [
+      {
+        "id": 1,
+        "time": "06:13",
+        "event": "Ankomst till akuten",
+        "by_who": "Maria Larsson",
+        "type": "hospital",
+        "info": ""
+      },
+      {
+        "id": 2,
+        "time": "06:27",
+        "event": "Tilldelad v\u00e5rdplats",
+        "by_who": "Carl Svensson",
+        "type": "location",
+        "info": "Rum 27"
+      },
+      {
+        "id": 3,
+        "time": "06:45",
+        "event": "Kollade vitala parametrar",
+        "by_who": "Carl Svensson",
+        "type": "vital_check",
+        "info": ""
+      },
+      {
+        "id": 4,
+        "time": "06:59",
+        "event": "Morfin 2mg",
+        "by_who": "Lena Bengtsson",
+        "type": "medication",
+        "info": ""
+      },
+      {
+        "id": 5,
+        "time": "07:07",
+        "event": "Unders\u00f6ka hj\u00e4rtrytm",
+        "by_who": "Carl Svensson",
+        "type": "ecg",
+        "info": ""
+      },
+      {
+        "id": 6,
+        "time": "07:14",
+        "event": "Tagen till r\u00f6ntgen",
+        "by_who": "Lena Bengtsson",
+        "type": "x-ray",
+        "info": ""
+      },
+      {
+        "id": 7,
+        "time": "07:20",
+        "event": "R\u00f6ntgen",
+        "by_who": "Lena Bengtsson",
+        "type": "x-ray",
+        "info": ""
+      },
+      {
+        "id": 8,
+        "time": "07:31",
+        "event": "Blodprov taget",
+        "by_who": "Carl Svensson",
+        "type": "test_taken",
+        "info": ""
+      },
+      {
+        "id": 9,
+        "time": "07:56",
+        "event": "Blodprov resultat",
+        "by_who": "Lena Bengtsson",
+        "type": "test_result_green",
+        "info": "B-Trombocyter: 162, B-Erytrocyter: 4,9, P-Kalium: 3,7"
+      },
+      {
+        "id": 10,
+        "time": "19:39",
+        "event": "Utdelning av medicin",
+        "by_who": "Carl Svensson",
+        "type": "medication",
+        "info": ""
+      },
+      {
+        "id": 11,
+        "time": "20:15",
+        "event": "Kontroll",
+        "by_who": "Carl Svensson",
+        "type": "check_up",
+        "info": ""
+      }
+    ]
+  }
+]

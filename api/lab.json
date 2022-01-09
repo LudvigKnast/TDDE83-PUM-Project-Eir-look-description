@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "klinisk_kemi": [
+      { "id": 1, "name": "B-Blodstatus", "value": "144" },
+      { "id": 2, "name": "B-Hb (Hemoglobin)", "value": "144" },
+      { "id": 3, "name": "B-EVF", "value": "0.43" },
+      { "id": 4, "name": "B-Erytrocyter", "value": "4,9" },
+      { "id": 5, "name": "B-MCV", "value": "88" },
+      { "id": 6, "name": "Erc(B)-MCH", "value": "30" },
+      { "id": 7, "name": "Erc(B)-MCHC", "value": "336" },
+      { "id": 8, "name": "B-Leukocyter", "value": "12,0*" },
+      { "id": 9, "name": "B-Trombocyter", "value": "162" },
+      { "id": 10, "name": "P-APT-tid", "value": "33*" },
+      { "id": 11, "name": "P-PK (INR)", "value": "1,1" },
+      { "id": 12, "name": "P-CRP", "value": "16*" },
+      { "id": 13, "name": "P-Natrium", "value": "140" },
+      { "id": 14, "name": "P-Kalium", "value": "3,7" },
+      { "id": 15, "name": "P-Kreatinin", "value": "69" },
+      { "id": 16, "name": "Pt-Krea, eGFR, MDRD", "value": "71" }
+    ],
+    "radiologi": [
+      { "id": 17, "name": "B\u00e4cken", "value": "Slutsvar" },
+      { "id": 18, "name": "H\u00f6ftled", "value": "Slutsvar" }
+    ]
+  },
+  {
+    "id": 2,
+    "klinisk_kemi": [
+      { "id": 1, "name": "B-Blodstatus", "value": "144" },
+      { "id": 2, "name": "B-Hb (Hemoglobin)", "value": "144" },
+      { "id": 3, "name": "B-EVF", "value": "0.43" },
+      { "id": 4, "name": "B-Erytrocyter", "value": "4,9" },
+      { "id": 5, "name": "B-MCV", "value": "88" },
+      { "id": 6, "name": "Erc(B)-MCH", "value": "30" },
+      { "id": 7, "name": "Erc(B)-MCHC", "value": "336" },
+      { "id": 8, "name": "B-Leukocyter", "value": "12,0*" },
+      { "id": 9, "name": "B-Trombocyter", "value": "162" },
+      { "id": 10, "name": "P-APT-tid", "value": "33*" },
+      { "id": 11, "name": "P-PK (INR)", "value": "1,1" },
+      { "id": 12, "name": "P-CRP", "value": "16*" },
+      { "id": 13, "name": "P-Natrium", "value": "140" },
+      { "id": 14, "name": "P-Kalium", "value": "3,7" },
+      { "id": 15, "name": "P-Kreatinin", "value": "69" },
+      { "id": 16, "name": "Pt-Krea, eGFR, MDRD", "value": "71" }
+    ],
+    "radiologi": [
+      { "id": 17, "name": "B\u00e4cken", "value": "Slutsvar" },
+      { "id": 18, "name": "H\u00f6ftled", "value": "Slutsvar" }
+    ]
+  },
+  {
+    "id": 3,
+    "klinisk_kemi": [
+      { "id": 1, "name": "B-Blodstatus", "value": "144" },
+      { "id": 2, "name": "B-Hb (Hemoglobin)", "value": "144" },
+      { "id": 3, "name": "B-EVF", "value": "0.43" },
+      { "id": 4, "name": "B-Erytrocyter", "value": "4,9" },
+      { "id": 5, "name": "B-MCV", "value": "88" },
+      { "id": 6, "name": "Erc(B)-MCH", "value": "30" },
+      { "id": 7, "name": "Erc(B)-MCHC", "value": "336" },
+      { "id": 8, "name": "B-Leukocyter", "value": "12,0*" },
+      { "id": 9, "name": "B-Trombocyter", "value": "162" },
+      { "id": 10, "name": "P-APT-tid", "value": "33*" },
+      { "id": 11, "name": "P-PK (INR)", "value": "1,1" },
+      { "id": 12, "name": "P-CRP", "value": "16*" },
+      { "id": 13, "name": "P-Natrium", "value": "140" },
+      { "id": 14, "name": "P-Kalium", "value": "3,7" },
+      { "id": 15, "name": "P-Kreatinin", "value": "69" },
+      { "id": 16, "name": "Pt-Krea, eGFR, MDRD", "value": "71" }
+    ],
+    "radiologi": [
+      { "id": 17, "name": "B\u00e4cken", "value": "Slutsvar" },
+      { "id": 18, "name": "H\u00f6ftled", "value": "Slutsvar" }
+    ]
+  },
+  {
+    "id": 4,
+    "klinisk_kemi": [
+      { "id": 1, "name": "B-Blodstatus", "value": "144" },
+      { "id": 2, "name": "B-Hb (Hemoglobin)", "value": "144" },
+      { "id": 3, "name": "B-EVF", "value": "0.43" },
+      { "id": 4, "name": "B-Erytrocyter", "value": "4,9" },
+      { "id": 5, "name": "B-MCV", "value": "88" },
+      { "id": 6, "name": "Erc(B)-MCH", "value": "30" },
+      { "id": 7, "name": "Erc(B)-MCHC", "value": "336" },
+      { "id": 8, "name": "B-Leukocyter", "value": "12,0*" },
+      { "id": 9, "name": "B-Trombocyter", "value": "162" },
+      { "id": 10, "name": "P-APT-tid", "value": "33*" },
+      { "id": 11, "name": "P-PK (INR)", "value": "1,1" },
+      { "id": 12, "name": "P-CRP", "value": "16*" },
+      { "id": 13, "name": "P-Natrium", "value": "140" },
+      { "id": 14, "name": "P-Kalium", "value": "3,7" },
+      { "id": 15, "name": "P-Kreatinin", "value": "69" },
+      { "id": 16, "name": "Pt-Krea, eGFR, MDRD", "value": "71" }
+    ],
+    "radiologi": [
+      { "id": 17, "name": "B\u00e4cken", "value": "Slutsvar" },
+      { "id": 18, "name": "H\u00f6ftled", "value": "Slutsvar" }
+    ]
+  },
+  {
+    "id": 5,
+    "klinisk_kemi": [
+      { "id": 1, "name": "B-Blodstatus", "value": "144" },
+      { "id": 2, "name": "B-Hb (Hemoglobin)", "value": "144" },
+      { "id": 3, "name": "B-EVF", "value": "0.43" },
+      { "id": 4, "name": "B-Erytrocyter", "value": "4,9" },
+      { "id": 5, "name": "B-MCV", "value": "88" },
+      { "id": 6, "name": "Erc(B)-MCH", "value": "30" },
+      { "id": 7, "name": "Erc(B)-MCHC", "value": "336" },
+      { "id": 8, "name": "B-Leukocyter", "value": "12,0*" },
+      { "id": 9, "name": "B-Trombocyter", "value": "162" },
+      { "id": 10, "name": "P-APT-tid", "value": "33*" },
+      { "id": 11, "name": "P-PK (INR)", "value": "1,1" },
+      { "id": 12, "name": "P-CRP", "value": "16*" },
+      { "id": 13, "name": "P-Natrium", "value": "140" },
+      { "id": 14, "name": "P-Kalium", "value": "3,7" },
+      { "id": 15, "name": "P-Kreatinin", "value": "69" },
+      { "id": 16, "name": "Pt-Krea, eGFR, MDRD", "value": "71" }
+    ],
+    "radiologi": [
+      { "id": 17, "name": "B\u00e4cken", "value": "Slutsvar" },
+      { "id": 18, "name": "H\u00f6ftled", "value": "Slutsvar" }
+    ]
+  },
+  {
+    "id": 6,
+    "klinisk_kemi": [
+      { "id": 1, "name": "B-Blodstatus", "value": "144" },
+      { "id": 2, "name": "B-Hb (Hemoglobin)", "value": "144" },
+      { "id": 3, "name": "B-EVF", "value": "0.43" },
+      { "id": 4, "name": "B-Erytrocyter", "value": "4,9" },
+      { "id": 5, "name": "B-MCV", "value": "88" },
+      { "id": 6, "name": "Erc(B)-MCH", "value": "30" },
+      { "id": 7, "name": "Erc(B)-MCHC", "value": "336" },
+      { "id": 8, "name": "B-Leukocyter", "value": "12,0*" },
+      { "id": 9, "name": "B-Trombocyter", "value": "162" },
+      { "id": 10, "name": "P-APT-tid", "value": "33*" },
+      { "id": 11, "name": "P-PK (INR)", "value": "1,1" },
+      { "id": 12, "name": "P-CRP", "value": "16*" },
+      { "id": 13, "name": "P-Natrium", "value": "140" },
+      { "id": 14, "name": "P-Kalium", "value": "3,7" },
+      { "id": 15, "name": "P-Kreatinin", "value": "69" },
+      { "id": 16, "name": "Pt-Krea, eGFR, MDRD", "value": "71" }
+    ],
+    "radiologi": [
+      { "id": 17, "name": "B\u00e4cken", "value": "Slutsvar" },
+      { "id": 18, "name": "H\u00f6ftled", "value": "Slutsvar" }
+    ]
+  },
+  {
+    "id": 7,
+    "klinisk_kemi": [
+      { "id": 1, "name": "B-Blodstatus", "value": "144" },
+      { "id": 2, "name": "B-Hb (Hemoglobin)", "value": "144" },
+      { "id": 3, "name": "B-EVF", "value": "0.43" },
+      { "id": 4, "name": "B-Erytrocyter", "value": "4,9" },
+      { "id": 5, "name": "B-MCV", "value": "88" },
+      { "id": 6, "name": "Erc(B)-MCH", "value": "30" },
+      { "id": 7, "name": "Erc(B)-MCHC", "value": "336" },
+      { "id": 8, "name": "B-Leukocyter", "value": "12,0*" },
+      { "id": 9, "name": "B-Trombocyter", "value": "162" },
+      { "id": 10, "name": "P-APT-tid", "value": "33*" },
+      { "id": 11, "name": "P-PK (INR)", "value": "1,1" },
+      { "id": 12, "name": "P-CRP", "value": "16*" },
+      { "id": 13, "name": "P-Natrium", "value": "140" },
+      { "id": 14, "name": "P-Kalium", "value": "3,7" },
+      { "id": 15, "name": "P-Kreatinin", "value": "69" },
+      { "id": 16, "name": "Pt-Krea, eGFR, MDRD", "value": "71" }
+    ],
+    "radiologi": [
+      { "id": 17, "name": "B\u00e4cken", "value": "Slutsvar" },
+      { "id": 18, "name": "H\u00f6ftled", "value": "Slutsvar" }
+    ]
+  },
+  {
+    "id": 8,
+    "klinisk_kemi": [
+      { "id": 1, "name": "B-Blodstatus", "value": "144" },
+      { "id": 2, "name": "B-Hb (Hemoglobin)", "value": "144" },
+      { "id": 3, "name": "B-EVF", "value": "0.43" },
+      { "id": 4, "name": "B-Erytrocyter", "value": "4,9" },
+      { "id": 5, "name": "B-MCV", "value": "88" },
+      { "id": 6, "name": "Erc(B)-MCH", "value": "30" },
+      { "id": 7, "name": "Erc(B)-MCHC", "value": "336" },
+      { "id": 8, "name": "B-Leukocyter", "value": "12,0*" },
+      { "id": 9, "name": "B-Trombocyter", "value": "162" },
+      { "id": 10, "name": "P-APT-tid", "value": "33*" },
+      { "id": 11, "name": "P-PK (INR)", "value": "1,1" },
+      { "id": 12, "name": "P-CRP", "value": "16*" },
+      { "id": 13, "name": "P-Natrium", "value": "140" },
+      { "id": 14, "name": "P-Kalium", "value": "3,7" },
+      { "id": 15, "name": "P-Kreatinin", "value": "69" },
+      { "id": 16, "name": "Pt-Krea, eGFR, MDRD", "value": "71" }
+    ],
+    "radiologi": [
+      { "id": 17, "name": "B\u00e4cken", "value": "Slutsvar" },
+      { "id": 18, "name": "H\u00f6ftled", "value": "Slutsvar" }
+    ]
+  },
+  {
+    "id": 9,
+    "klinisk_kemi": [
+      { "id": 1, "name": "B-Blodstatus", "value": "144" },
+      { "id": 2, "name": "B-Hb (Hemoglobin)", "value": "144" },
+      { "id": 3, "name": "B-EVF", "value": "0.43" },
+      { "id": 4, "name": "B-Erytrocyter", "value": "4,9" },
+      { "id": 5, "name": "B-MCV", "value": "88" },
+      { "id": 6, "name": "Erc(B)-MCH", "value": "30" },
+      { "id": 7, "name": "Erc(B)-MCHC", "value": "336" },
+      { "id": 8, "name": "B-Leukocyter", "value": "12,0*" },
+      { "id": 9, "name": "B-Trombocyter", "value": "162" },
+      { "id": 10, "name": "P-APT-tid", "value": "33*" },
+      { "id": 11, "name": "P-PK (INR)", "value": "1,1" },
+      { "id": 12, "name": "P-CRP", "value": "16*" },
+      { "id": 13, "name": "P-Natrium", "value": "140" },
+      { "id": 14, "name": "P-Kalium", "value": "3,7" },
+      { "id": 15, "name": "P-Kreatinin", "value": "69" },
+      { "id": 16, "name": "Pt-Krea, eGFR, MDRD", "value": "71" }
+    ],
+    "radiologi": [
+      { "id": 17, "name": "B\u00e4cken", "value": "Slutsvar" },
+      { "id": 18, "name": "H\u00f6ftled", "value": "Slutsvar" }
+    ]
+  },
+  {
+    "id": 10,
+    "klinisk_kemi": [
+      { "id": 1, "name": "B-Blodstatus", "value": "144" },
+      { "id": 2, "name": "B-Hb (Hemoglobin)", "value": "144" },
+      { "id": 3, "name": "B-EVF", "value": "0.43" },
+      { "id": 4, "name": "B-Erytrocyter", "value": "4,9" },
+      { "id": 5, "name": "B-MCV", "value": "88" },
+      { "id": 6, "name": "Erc(B)-MCH", "value": "30" },
+      { "id": 7, "name": "Erc(B)-MCHC", "value": "336" },
+      { "id": 8, "name": "B-Leukocyter", "value": "12,0*" },
+      { "id": 9, "name": "B-Trombocyter", "value": "162" },
+      { "id": 10, "name": "P-APT-tid", "value": "33*" },
+      { "id": 11, "name": "P-PK (INR)", "value": "1,1" },
+      { "id": 12, "name": "P-CRP", "value": "16*" },
+      { "id": 13, "name": "P-Natrium", "value": "140" },
+      { "id": 14, "name": "P-Kalium", "value": "3,7" },
+      { "id": 15, "name": "P-Kreatinin", "value": "69" },
+      { "id": 16, "name": "Pt-Krea, eGFR, MDRD", "value": "71" }
+    ],
+    "radiologi": [
+      { "id": 17, "name": "B\u00e4cken", "value": "Slutsvar" },
+      { "id": 18, "name": "H\u00f6ftled", "value": "Slutsvar" }
+    ]
+  }
+]
