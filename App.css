@@ -1,0 +1,36 @@
+/* Colors to use across the whole app */
+:root {
+  --primary-color: #6da0dd;
+  --secondary-color: #91b8e5;
+}
+
+@font-face {
+  font-family: "primary-font-text";
+  src: url('./fonts/Quicksand-variablefont.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Company Font Required */
+  font-family: "primary-font-text", sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+  /* Change browser's default scrollbar to something fancy */
+  /* Webkit is used to ensure compatibility on different browsers */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: white;
+    border-radius: 1px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #6da0dd;
+    border-radius: 1px;
+  }
+}
