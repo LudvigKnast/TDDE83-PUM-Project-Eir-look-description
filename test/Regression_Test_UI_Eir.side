@@ -1,0 +1,1803 @@
+{
+  "id": "b50ef1a0-e611-43a3-a028-8125a15471ba",
+  "version": "2.0",
+  "name": "Regression_Test_UI_Eir",
+  "url": "http://localhost:3000/",
+  "tests": [{
+    "id": "3d48d0af-afd8-4b74-8d1b-6a80ddd33502",
+    "name": "Basic Login Page Test",
+    "commands": [{
+      "id": "732c4030-a53a-40e4-8ab8-6f07a3cdd935",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ee2521d-fb04-4819-b97c-9fe1a8d058cf",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=img",
+      "targets": [
+        ["css=img", "css:finder"],
+        ["xpath=//img[@alt='Region Östergötland Logo']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1f6b8a8-a3ad-4e0f-9875-7062fc8b3dbd",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/a/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Logga in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "280c3d6c-3103-45ab-8d52-f812c483de1d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'13:11')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bc1453ce-90e9-48d9-a1a0-33a796d27bf8",
+    "name": "Log In/Log Out Test",
+    "commands": [{
+      "id": "f856d340-c0ea-475b-8448-66de743b527b",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc5e30be-9aa4-4352-8a88-204479056e76",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/a/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Logga in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "419e1c84-46e3-4fe8-9e4a-71969a2c3fa9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/a/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Logga in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9283d6e9-003a-43c2-acda-0be649e98f44",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Logga ut",
+      "targets": [
+        ["linkText=Logga ut", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'Logga ut')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/ul/a[6]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[6]", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Logga ut')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e60aca65-25ee-44c4-b4a5-976bd2d2c7ee",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logga ut",
+      "targets": [
+        ["linkText=Logga ut", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'Logga ut')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/ul/a[6]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[6]", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Logga ut')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "89b350bb-2b21-4085-b2f0-960ea4842dad",
+    "name": "Settings Test",
+    "commands": [{
+      "id": "cbc5c680-aa45-49ca-93c2-e6d5bce85116",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7e71ec5-9199-4323-84f4-c42c19c50fa5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/a/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Logga in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e70ba078-9d9f-45df-9300-fce21f72255b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Inställningar",
+      "targets": [
+        ["linkText=Inställningar", "linkText"],
+        ["css=.sidebar-navitem:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Inställningar')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/ul/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Settings')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Inställningar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18038994-3793-4470-be33-c490af2a5595",
+      "comment": "",
+      "command": "click",
+      "target": "css=.settings-container:nth-child(1) > .settings-button",
+      "targets": [
+        ["css=.settings-container:nth-child(1) > .settings-button", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ändra till läkare')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f843e578-41ef-44dc-9a1b-5b672d3ef51f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Alla Patienter",
+      "targets": [
+        ["linkText=Alla Patienter", "linkText"],
+        ["css=.sidebar-navitem:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Alla Patienter')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/ul/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Patients')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Alla Patienter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "57a2dcc0-2f31-4567-9a92-d07363e63719",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sheppard McCrann",
+      "targets": [
+        ["linkText=Sheppard McCrann", "linkText"],
+        ["css=.patients-team-container:nth-child(1) tr:nth-child(1) > .patient-name > .table-link-journal", "css:finder"],
+        ["xpath=//a[contains(text(),'Sheppard McCrann')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[3]/table/tbody/tr/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Patient/1/Overview')]", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sheppard McCrann')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5fcf3b9-e952-425a-af82-df59add88a30",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.chart-container",
+      "targets": [
+        ["css=.chart-container", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57b971fd-9fa5-4264-bf53-e151b0bf562c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Inställningar",
+      "targets": [
+        ["linkText=Inställningar", "linkText"],
+        ["css=.sidebar-navitem:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'Inställningar')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/ul/a[8]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Settings')]", "xpath:href"],
+        ["xpath=//a[8]", "xpath:position"],
+        ["xpath=//a[contains(.,'Inställningar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "90eb9149-ffda-4c73-ad75-8e98d4a74ba7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.settings-container:nth-child(2) > .settings-button",
+      "targets": [
+        ["css=.settings-container:nth-child(2) > .settings-button", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ändra till sjuksköterska')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94ff8351-0c70-4124-9924-4d459bc8d6c4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Alla Patienter",
+      "targets": [
+        ["linkText=Alla Patienter", "linkText"],
+        ["css=.sidebar-navitem:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Alla Patienter')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/ul/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Patients')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Alla Patienter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29544f90-3fb3-48a7-a7bb-8997b8131761",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sheppard McCrann",
+      "targets": [
+        ["linkText=Sheppard McCrann", "linkText"],
+        ["css=.patients-team-container:nth-child(1) tr:nth-child(1) > .patient-name > .table-link-journal", "css:finder"],
+        ["xpath=//a[contains(text(),'Sheppard McCrann')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[3]/table/tbody/tr/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Patient/1/Overview')]", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sheppard McCrann')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "104f18f9-c0d6-45c4-8a87-6a5ee712cec3",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=(//a[contains(@href, '/Patient/1/Journal')])[2]",
+      "targets": [
+        ["css=.overview-box:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/Patient/1/Journal')])[2]", "xpath:href"],
+        ["xpath=//div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c9ed0988-ffa0-4d4c-bf6a-e64a06643e55",
+    "name": "Staff And Patient List Redirection Test",
+    "commands": [{
+      "id": "51eb51d9-9aee-4075-bc14-b17612c01418",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "869ae57e-ca84-4c2f-9380-45288c64f008",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/a/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Logga in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0f8a45c-6235-4881-b19f-c17c0528aea1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Alla Patienter",
+      "targets": [
+        ["linkText=Alla Patienter", "linkText"],
+        ["css=.sidebar-navitem:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Alla Patienter')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/ul/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Patients')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Alla Patienter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8aa236d7-a1ba-4017-8f3d-a8f9a510935e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//th[contains(.,'Sökorsak')]",
+      "targets": [
+        ["css=.patients-team-container:nth-child(1) th:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/table/thead/tr[2]/th[3]", "xpath:idRelative"],
+        ["xpath=//th[3]", "xpath:position"],
+        ["xpath=//th[contains(.,'Sökorsak')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cbe2477-f2b6-4663-9f42-06e118ee17ce",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=All Personal",
+      "targets": [
+        ["linkText=All Personal", "linkText"],
+        ["css=.sidebar-navitem:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'All Personal')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/ul/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/AllStaff')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'All Personal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "74b5b640-16bd-4c4a-8a9c-59d82d9dafab",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//th[contains(.,'Roll')]",
+      "targets": [
+        ["css=.patients-team-container:nth-child(1) th:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/table/thead/tr[2]/th[2]", "xpath:idRelative"],
+        ["xpath=//th[2]", "xpath:position"],
+        ["xpath=//th[contains(.,'Roll')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47e070d6-a6de-4979-8c58-47ab962462f9",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//th[contains(.,'Skift')]",
+      "targets": [
+        ["css=.patients-team-container:nth-child(1) th:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/table/thead/tr[2]/th[3]", "xpath:idRelative"],
+        ["xpath=//th[3]", "xpath:position"],
+        ["xpath=//th[contains(.,'Skift')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a4dd396-2418-4d45-9b38-72ba2db2f595",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mitt Team",
+      "targets": [
+        ["linkText=Mitt Team", "linkText"],
+        ["css=.sidebar-navitem:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Mitt Team')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/ul/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/MyTeam')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Mitt Team')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76bd6386-7caf-4881-bf23-4a446de1dabb",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//th[contains(.,'Mitt team')]",
+      "targets": [
+        ["css=tr:nth-child(1) > th", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/table/thead/tr/th", "xpath:idRelative"],
+        ["xpath=//th", "xpath:position"],
+        ["xpath=//th[contains(.,'Mitt team')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcfb23d3-9a62-4b2b-b66b-eb640fd51ddc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mina Patienter",
+      "targets": [
+        ["linkText=Mina Patienter", "linkText"],
+        ["css=.sidebar-navitem:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Mina Patienter')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/ul/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/MyPatients')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Mina Patienter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "055a490a-dc18-418f-90fb-f51d73240a09",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//th[contains(.,'Mina patienter')]",
+      "targets": [
+        ["css=tr:nth-child(1) > th", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/table/thead/tr/th", "xpath:idRelative"],
+        ["xpath=//th", "xpath:position"],
+        ["xpath=//th[contains(.,'Mina patienter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "558155c1-b555-4621-a54c-526a31183bba",
+    "name": "Patient Redirection Test",
+    "commands": [{
+      "id": "d289ab59-9624-4351-a43a-f47e376ad95c",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87d16fb1-ec89-4a43-a323-d5a86a6b4b6e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/a/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Logga in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "074e1e3b-7d08-480e-a1f3-62f8a94d5b28",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Alla Patienter",
+      "targets": [
+        ["linkText=Alla Patienter", "linkText"],
+        ["css=.sidebar-navitem:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Alla Patienter')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/ul/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Patients')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Alla Patienter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "329cd69e-1375-4625-b35f-1053237fa6e8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sheppard McCrann",
+      "targets": [
+        ["linkText=Sheppard McCrann", "linkText"],
+        ["css=.patients-team-container:nth-child(1) tr:nth-child(1) > .patient-name > .table-link-journal", "css:finder"],
+        ["xpath=//a[contains(text(),'Sheppard McCrann')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[3]/table/tbody/tr/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Patient/1/Overview')]", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sheppard McCrann')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb24c293-c63b-45f5-8051-f1ed540b5576",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.overview-timeline-container",
+      "targets": [
+        ["css=.overview-timeline-container", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/a[4]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/Patient/1/Timeline')])[2]", "xpath:href"],
+        ["xpath=//div/a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb49defd-9daa-4881-8985-84b57b8e0e09",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Journal",
+      "targets": [
+        ["linkText=Journal", "linkText"],
+        ["css=.sidebar-navitem:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Journal')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/ul/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Patient/1/Journal')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Journal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2f2c8bb-6e0d-4ce7-b1b5-e4b654b4577e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//h1[contains(.,'Journal')]",
+      "targets": [
+        ["css=.journal > h1", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Journal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fb754eb-26d0-47a2-b29a-da8beddd9c2f",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//h1[contains(.,'Aktuellt hälsoproblem')]",
+      "targets": [
+        ["css=.journal-health-problem h1", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[2]/div/h1", "xpath:idRelative"],
+        ["xpath=//div[2]/div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Aktuellt hälsoproblem')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb74eb7a-c724-4399-86f8-cd872aa6ddc4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Vitalparametrar",
+      "targets": [
+        ["linkText=Vitalparametrar", "linkText"],
+        ["css=.sidebar-navitem:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Vitalparametrar')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/ul/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Patient/1/Vitals')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Vitalparametrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb2ca5dd-1111-4168-874f-ba28b6f40adb",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.vitals-container",
+      "targets": [
+        ["css=.vitals-container", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8921f0f1-aa6a-455a-8657-766c75470949",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Läkemedel",
+      "targets": [
+        ["linkText=Läkemedel", "linkText"],
+        ["css=.sidebar-navitem:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Läkemedel')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/ul/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Patient/1/Medicine')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Läkemedel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35619fa9-e2a6-472b-8856-e320608dfced",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.medicine-table-container:nth-child(1)",
+      "targets": [
+        ["css=.medicine-table-container:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c712809e-6a67-4243-bbbc-80f7c8800f45",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.medicine-table-container:nth-child(2)",
+      "targets": [
+        ["css=.medicine-table-container:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c99c7f5c-585d-4c2c-bec7-26f367e0814b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Labb",
+      "targets": [
+        ["linkText=Labb", "linkText"],
+        ["css=.sidebar-navitem:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Labb')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/ul/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Patient/1/Lab')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Labb')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "17165a42-d926-451b-8132-991e0bf5b7cb",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.lab-container",
+      "targets": [
+        ["css=.lab-container", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50b94404-df1e-4ff1-a9ab-4a198ded705a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tidslinje",
+      "targets": [
+        ["linkText=Tidslinje", "linkText"],
+        ["css=.sidebar-navitem:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tidslinje')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/ul/a[6]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Patient/1/Timeline')]", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tidslinje')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "545738e6-e0c9-4491-b9f2-beb925943153",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.timeline-chart",
+      "targets": [
+        ["css=.timeline-chart", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c994f21-9e52-426d-b9f6-22818851613e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.timeline-table-container",
+      "targets": [
+        ["css=.timeline-table-container", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d5f8d91-1164-4bb4-a303-b13a2f60d525",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=EKG",
+      "targets": [
+        ["linkText=EKG", "linkText"],
+        ["css=.selected", "css:finder"],
+        ["xpath=//a[contains(text(),'EKG')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/ul/a[7]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Patient/1/ECG')]", "xpath:href"],
+        ["xpath=//a[7]", "xpath:position"],
+        ["xpath=//a[contains(.,'EKG')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f455f5e-ccba-4a4e-bacf-1d4fd5312d04",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.ecg-container",
+      "targets": [
+        ["css=.ecg-container", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "03b6e9d3-d4b9-4987-8d18-d0cf25ec656e",
+    "name": "Integration testing 1 - Vitals: show graphs",
+    "commands": [{
+      "id": "85ab1e24-39c6-469d-a42e-53685b929cb0",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/patient/1/vitals",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0fca2395-3a6d-4621-b2bb-2514a432de01",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x831",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36864303-803d-468c-8c44-b8e43651a230",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.pbs-container > canvas",
+      "targets": [
+        ["css=.pbs-container > canvas", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div/div[2]/canvas", "xpath:idRelative"],
+        ["xpath=//canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ea03829-262e-4c0b-a4a7-6bb81d003d11",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.af-container > canvas",
+      "targets": [
+        ["css=.af-container > canvas", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div[2]/div[2]/canvas", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4f66c6f-76db-4205-a110-402dfcf74ca2",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.temp-container > canvas",
+      "targets": [
+        ["css=.temp-container > canvas", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div[3]/div[2]/canvas", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa8c0e0c-1f85-498f-bbd7-9d6b51662348",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.assessment-container > canvas",
+      "targets": [
+        ["css=.assessment-container > canvas", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div[4]/div[2]/canvas", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6604cf51-d5cb-4781-99a1-2ea4bf212bd3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pos-relative:nth-child(1) path",
+      "targets": [
+        ["css=.pos-relative:nth-child(1) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6059aa44-415e-4206-8f74-0bc651d23dbb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.zoomImg > path",
+      "targets": [
+        ["css=.zoomImg > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "51dbf6f5-a146-4f60-b1cc-fe53994f560e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pos-relative:nth-child(2) path",
+      "targets": [
+        ["css=.pos-relative:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8312a4d7-cbe5-4480-9816-4fcb2da10b16",
+      "comment": "",
+      "command": "click",
+      "target": "css=.zoomImg > path",
+      "targets": [
+        ["css=.zoomImg > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "89cbdc43-148c-4c22-bf3b-e20eb424e7a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pos-relative:nth-child(3) path",
+      "targets": [
+        ["css=.pos-relative:nth-child(3) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "596e6931-09f1-426d-889b-4847e6cda7ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.zoomImg",
+      "targets": [
+        ["css=.zoomImg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "58cc4c7c-c063-4752-8934-21e21f5583a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pos-relative:nth-child(4) .zoomImg",
+      "targets": [
+        ["css=.pos-relative:nth-child(4) .zoomImg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f8cb576-4fd2-417c-bbc5-eeb505552c04",
+      "comment": "",
+      "command": "click",
+      "target": "css=.zoomImg",
+      "targets": [
+        ["css=.zoomImg", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "42a097a1-258f-494f-9841-b9c05730ef00",
+    "name": "Integration testing 2 - Timeline chart",
+    "commands": [{
+      "id": "2300260a-a0c0-46ac-9bb3-30e9d8dd48f2",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/patient/1/timeline",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71a554fd-d910-4dec-bbb0-10e047bdc131",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x831",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "227b7067-37e5-4e22-b94a-18805eaf8ee8",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.timeline-chart",
+      "targets": [
+        ["css=.timeline-chart", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65d21484-5aac-4287-8de1-a756e8e77eff",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.two-items-container:nth-child(2)",
+      "targets": [
+        ["css=.two-items-container:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e46ede16-d0bb-4e9f-b5f2-12ea43efbd9d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.two-items-container:nth-child(3)",
+      "targets": [
+        ["css=.two-items-container:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5036f55-b6a0-40a6-8aa0-1379646ee7c6",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.two-items-container:nth-child(4)",
+      "targets": [
+        ["css=.two-items-container:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e79e7c1d-93b4-4afc-b899-548a609393e1",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.two-items-container:nth-child(5)",
+      "targets": [
+        ["css=.two-items-container:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61e2a163-c596-4e38-b346-1630057f1115",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.two-items-container:nth-child(6)",
+      "targets": [
+        ["css=.two-items-container:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9ffabb2-1af4-47fb-a34e-90862c7de459",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.two-items-container:nth-child(7)",
+      "targets": [
+        ["css=.two-items-container:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22bf29b5-f17a-4714-a1e8-d8159b253263",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.two-items-container:nth-child(8)",
+      "targets": [
+        ["css=.two-items-container:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b34a26f-9f69-44f9-94ec-0b97fa71a397",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.two-items-container:nth-child(8)",
+      "targets": [
+        ["css=.two-items-container:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54c76046-8982-47fa-8c22-d35bf6bd5f2d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.two-items-container:nth-child(9)",
+      "targets": [
+        ["css=.two-items-container:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "548b585c-32fa-4636-9f54-5c97dcd7015a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.two-items-container:nth-child(10)",
+      "targets": [
+        ["css=.two-items-container:nth-child(10)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div/div[10]", "xpath:idRelative"],
+        ["xpath=//div[10]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5aa3afc-2a4b-47a7-a0e0-97e6975316cf",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.two-items-container:nth-child(11)",
+      "targets": [
+        ["css=.two-items-container:nth-child(11)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div/div[11]", "xpath:idRelative"],
+        ["xpath=//div[11]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0a37ffd-9995-4759-8612-cc1821435626",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.two-items-container:nth-child(2) .icon-dot",
+      "targets": [],
+      "value": "Rum 27"
+    }, {
+      "id": "99215084-de3e-411f-a97f-f158d7a821d9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.two-items-container:nth-child(9) .icon-dot",
+      "targets": [
+        ["css=.two-items-container:nth-child(9) .icon-dot", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5b499414-65df-4571-9f4f-f36cb9cb041d",
+    "name": "Integration testing 3 - Timeline table",
+    "commands": [{
+      "id": "d9fc50c6-2e11-4ba5-a6d1-2bd949ded8d7",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/patient/1/timeline",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60bb9875-fd20-43c9-8824-0ffd1f3ed233",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x831",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1beb6d39-9cec-4e3a-b184-8c04b22011fc",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.timeline-table-container",
+      "targets": [
+        ["css=.timeline-table-container", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44ec185e-91fe-497b-af54-7c8c40a12799",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=tr:nth-child(1) > .timeline-table-link",
+      "targets": [
+        ["css=tr:nth-child(1) > .timeline-table-link", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[2]/table/tbody/tr/td[2]", "xpath:idRelative"],
+        ["xpath=//td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'Kontroll')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "09fa0e31-18e0-4d94-af29-2ead23e9c788",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=tr:nth-child(1) > td:nth-child(3)",
+      "targets": [
+        ["css=tr:nth-child(1) > td:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[2]/table/tbody/tr/td[3]", "xpath:idRelative"],
+        ["xpath=//td[3]", "xpath:position"],
+        ["xpath=//td[contains(.,'Carl Svensson')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9525e913-5e19-4269-b354-6365ffefda02",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=tr:nth-child(6) > td:nth-child(1)",
+      "targets": [
+        ["css=tr:nth-child(6) > td:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[2]/table/tbody/tr[6]/td", "xpath:idRelative"],
+        ["xpath=//tr[6]/td", "xpath:position"],
+        ["xpath=//td[contains(.,'07:14')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ff0b6ea-ffd6-4a8b-a339-d3a077678426",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=tr:nth-child(7) a",
+      "targets": [
+        ["css=tr:nth-child(7) a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Undersöka hjärtrytm')])[2]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[2]/table/tbody/tr[7]/td[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/Patient/1/ECG')])[2]", "xpath:href"],
+        ["xpath=//tr[7]/td[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50112a9a-3f18-432d-a6bf-daf851f2816c",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.timeline-by-who",
+      "targets": [
+        ["css=.timeline-by-who", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[2]/table/thead/tr/th[3]", "xpath:idRelative"],
+        ["xpath=//th[3]", "xpath:position"],
+        ["xpath=//th[contains(.,'Av vem')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb4ecf78-b92f-4d1b-99d3-e9783f1f1c02",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=tr:nth-child(11) > .timeline-table-link",
+      "targets": [
+        ["css=tr:nth-child(11) > .timeline-table-link", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[2]/table/tbody/tr[11]/td[2]", "xpath:idRelative"],
+        ["xpath=//tr[11]/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'Ankomst till akuten')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "682647b1-1f7d-48db-b2d2-f101b2b03200",
+    "name": "Integration testing 4 - EKG: Charts",
+    "commands": [{
+      "id": "5b7ee73b-91aa-4cde-80d8-7365e12f9353",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/patient/1/ecg",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd2acf55-b7cb-4a73-941c-442bb2f750d5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x831",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc59f378-c8f3-440f-8ed5-56a1a464d7f2",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.current",
+      "targets": [
+        ["css=.current", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91132a8a-d7d5-4b02-be29-6624a8e98076",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.previous > div > p",
+      "targets": [
+        ["css=.previous > div > p", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[2]/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'EKG: 2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b667f742-f2ce-4988-af25-76d504842799",
+      "comment": "",
+      "command": "click",
+      "target": "css=.current .ecgsidebar-container:nth-child(2) > .ecg-button",
+      "targets": [
+        ["css=.current .ecgsidebar-container:nth-child(2) > .ecg-button", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'12/1/2020 10:32')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31b925d7-dd99-4905-a078-a8d53e292a57",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.current",
+      "targets": [
+        ["css=.current", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f482f2f7-7722-4991-817f-bfe8bff2dd5e",
+    "name": "Integration testing 5 - Medicine",
+    "commands": [{
+      "id": "22763730-b720-468b-b853-e2cfc39dc31c",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/patient/1/medicine",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3287168c-beac-4d08-8804-aefe91d2ce33",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x831",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b391de0-9b57-4965-9b05-088efc77d05f",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.medicine-table-container:nth-child(1)",
+      "targets": [
+        ["css=.medicine-table-container:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f82e64f-692f-4840-a04e-19214f967852",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.medicine-table-container:nth-child(2)",
+      "targets": [
+        ["css=.medicine-table-container:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29db5c34-b03d-4a7f-a0f8-71ed00702b79",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.medicine-table-container:nth-child(1) th:nth-child(1)",
+      "targets": [
+        ["css=.medicine-table-container:nth-child(1) th:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/table/thead/tr/th", "xpath:idRelative"],
+        ["xpath=//th", "xpath:position"],
+        ["xpath=//th[contains(.,'Läkemedel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "031791bd-a37c-4b14-ab22-96963eacbe08",
+    "name": "Integration testing 6 - List all patients",
+    "commands": [{
+      "id": "2615a701-2eb3-4843-83a6-e5c4a73b2985",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/Patients",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80fc8490-d924-4bb9-824b-26a52245ebb8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x831",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2742c7b-a3cd-405a-9208-087d33297a88",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.patients-team-container:nth-child(1)",
+      "targets": [
+        ["css=.patients-team-container:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/table", "xpath:idRelative"],
+        ["xpath=//table", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfc7e6fc-868c-482b-9421-7cedd06e0d5d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.patients-team-container:nth-child(2)",
+      "targets": [
+        ["css=.patients-team-container:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/table[2]", "xpath:idRelative"],
+        ["xpath=//table[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b293e0f-ab86-430d-b0d4-4ed09db140c7",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.patients-team-container:nth-child(3)",
+      "targets": [
+        ["css=.patients-team-container:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/table[3]", "xpath:idRelative"],
+        ["xpath=//table[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "700f3a21-9160-49b8-88cb-0aeb6e6a0060",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.patients-team-container:nth-child(1) tr:nth-child(1) > .patient-name",
+      "targets": [
+        ["css=.patients-team-container:nth-child(1) tr:nth-child(1) > .patient-name", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d187eb48-1b15-4541-8812-4b22c4ec19f0",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.patients-team-container:nth-child(1) tr:nth-child(2) > .patient-name",
+      "targets": [
+        ["css=.patients-team-container:nth-child(1) tr:nth-child(2) > .patient-name", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/table/tbody/tr[2]/td", "xpath:idRelative"],
+        ["xpath=//tr[2]/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d0be287-cf25-4430-a058-877a58f63a5f",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.patients-team-container:nth-child(1) tr:nth-child(3) > .patient-name",
+      "targets": [
+        ["css=.patients-team-container:nth-child(1) tr:nth-child(3) > .patient-name", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/table/tbody/tr[3]/td", "xpath:idRelative"],
+        ["xpath=//tr[3]/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26371fd7-cd6b-4e0a-810f-21be2c34141b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.patients-team-container:nth-child(1) tr:nth-child(3) > .patient-name",
+      "targets": [
+        ["css=.patients-team-container:nth-child(1) tr:nth-child(3) > .patient-name", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/table/tbody/tr[3]/td", "xpath:idRelative"],
+        ["xpath=//tr[3]/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72e25f85-aa69-4ee1-b291-60363ff17b59",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=tr:nth-child(4) > .patient-name",
+      "targets": [
+        ["css=tr:nth-child(4) > .patient-name", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/table/tbody/tr[4]/td", "xpath:idRelative"],
+        ["xpath=//tr[4]/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fe0b0ae-b06c-412a-b1de-8cd848d496ea",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.patients-team-container:nth-child(2) tr:nth-child(1) > .patient-name",
+      "targets": [
+        ["css=.patients-team-container:nth-child(2) tr:nth-child(1) > .patient-name", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/table[2]/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "143ab8e3-00c8-49be-b8f7-284fa00930fa",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.patients-team-container:nth-child(2) tr:nth-child(2) > .patient-name",
+      "targets": [
+        ["css=.patients-team-container:nth-child(2) tr:nth-child(2) > .patient-name", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/table[2]/tbody/tr[2]/td", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[2]/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7627f686-6799-41a8-8d46-3cb7f0726989",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.patients-team-container:nth-child(2) tr:nth-child(3) > .patient-name",
+      "targets": [
+        ["css=.patients-team-container:nth-child(2) tr:nth-child(3) > .patient-name", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/table[2]/tbody/tr[3]/td", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[3]/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a13d7a75-afa7-4d7a-8b4e-d24090299c9a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.patients-team-container:nth-child(3) tr:nth-child(1) > .patient-name",
+      "targets": [
+        ["css=.patients-team-container:nth-child(3) tr:nth-child(1) > .patient-name", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/table[3]/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//table[3]/tbody/tr/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "adc93128-8705-48b5-80c6-ab5807915317",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.patients-team-container:nth-child(3) tr:nth-child(2) > .patient-name",
+      "targets": [
+        ["css=.patients-team-container:nth-child(3) tr:nth-child(2) > .patient-name", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/table[3]/tbody/tr[2]/td", "xpath:idRelative"],
+        ["xpath=//table[3]/tbody/tr[2]/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e44d9f7c-6b84-4550-8dd1-12f6f1da62d9",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.patients-team-container:nth-child(3) tr:nth-child(3) > .patient-name",
+      "targets": [
+        ["css=.patients-team-container:nth-child(3) tr:nth-child(3) > .patient-name", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/table[3]/tbody/tr[3]/td", "xpath:idRelative"],
+        ["xpath=//table[3]/tbody/tr[3]/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c77ffd06-96b8-48a6-840c-3abb1a2201dc",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.patients-team-container:nth-child(1) tr:nth-child(1) > .patient-new-info",
+      "targets": [
+        ["css=.patients-team-container:nth-child(1) tr:nth-child(1) > .patient-new-info", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/table/tbody/tr/td[2]", "xpath:idRelative"],
+        ["xpath=//td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdbfb4f1-47cc-46cc-ab83-bf707b216f30",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.patients-team-container:nth-child(1) tr:nth-child(1) > td:nth-child(3)",
+      "targets": [
+        ["css=.patients-team-container:nth-child(1) tr:nth-child(1) > td:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/table/tbody/tr/td[3]", "xpath:idRelative"],
+        ["xpath=//td[3]", "xpath:position"],
+        ["xpath=//td[contains(.,'Buksmärta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "933bdfbc-d6e1-49a4-b849-c0fb9e78a27c",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.patients-team-container:nth-child(1) tr:nth-child(1) svg:nth-child(2) > circle",
+      "targets": [
+        ["css=.patients-team-container:nth-child(1) tr:nth-child(1) svg:nth-child(2) > circle", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac712677-933d-468c-8431-4efd23e0514c",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.patients-team-container:nth-child(1) tr:nth-child(1) > td:nth-child(5)",
+      "targets": [
+        ["css=.patients-team-container:nth-child(1) tr:nth-child(1) > td:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/table/tbody/tr/td[5]", "xpath:idRelative"],
+        ["xpath=//td[5]", "xpath:position"],
+        ["xpath=//td[contains(.,'A:12')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50c691cf-5a1d-46e7-b721-a220a246ef63",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.patients-team-container:nth-child(1) tr:nth-child(1) > .patient-checkup-time",
+      "targets": [
+        ["css=.patients-team-container:nth-child(1) tr:nth-child(1) > .patient-checkup-time", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/table/tbody/tr/td[6]", "xpath:idRelative"],
+        ["xpath=//td[6]", "xpath:position"],
+        ["xpath=//td[contains(.,'4 min')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64e86163-6f5a-4a23-8aa7-b61c8ed167e6",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.patients-team-container:nth-child(1) tr:nth-child(1) > .datetime-er",
+      "targets": [
+        ["css=.patients-team-container:nth-child(1) tr:nth-child(1) > .datetime-er", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/table/tbody/tr/td[7]", "xpath:idRelative"],
+        ["xpath=//td[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bfb91c9-c9b6-41fe-b7a0-39c449736d41",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.patients-team-container:nth-child(1) tr:nth-child(1) > td:nth-child(8)",
+      "targets": [
+        ["css=.patients-team-container:nth-child(1) tr:nth-child(1) > td:nth-child(8)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/table/tbody/tr/td[8]", "xpath:idRelative"],
+        ["xpath=//td[8]", "xpath:position"],
+        ["xpath=//td[contains(.,'Journal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bc3aa9a2-82d8-4ca6-90f0-9338b800f442",
+    "name": "Integration testing 7 - Patient overview",
+    "commands": [{
+      "id": "d4eb9c9f-cfeb-41cd-ac76-bed2dd6c91dc",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/Patient/1/Overview",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90491b2c-8b99-40ee-bd51-354553c85069",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x831",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3188813f-8514-4aa2-aa88-64ac390f1edd",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.overview-container",
+      "targets": [
+        ["css=.overview-container", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a93634a-a0bb-4a2c-890c-919b15d82543",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Inställningar",
+      "targets": [
+        ["linkText=Inställningar", "linkText"],
+        ["css=.sidebar-navitem:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'Inställningar')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/ul/a[8]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Settings')]", "xpath:href"],
+        ["xpath=//a[8]", "xpath:position"],
+        ["xpath=//a[contains(.,'Inställningar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44a4a991-7bc2-4f60-b2b4-2889d6790e3c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.settings-container:nth-child(2) > .settings-button",
+      "targets": [
+        ["css=.settings-container:nth-child(2) > .settings-button", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ändra till sjuksköterska')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35a948c2-e29d-4557-80b7-c6c2f52062dd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Alla Patienter",
+      "targets": [
+        ["linkText=Alla Patienter", "linkText"],
+        ["css=.sidebar-navitem:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Alla Patienter')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/ul/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Patients')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Alla Patienter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2638249f-8e2b-456c-93ed-2ace93ee9d48",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sheppard McCrann",
+      "targets": [
+        ["linkText=Sheppard McCrann", "linkText"],
+        ["css=.patients-team-container:nth-child(1) tr:nth-child(1) > .patient-name > .table-link-journal", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/table/tbody/tr/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Patient/1/Overview')]", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sheppard McCrann')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6df3f4d0-f76e-482e-bc19-30269bdb048b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.measurement-boxes:nth-child(1)",
+      "targets": [
+        ["css=.measurement-boxes:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/a/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc4ed8a4-a872-4c20-b27e-18d086ad8b39",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.measurement-boxes:nth-child(2)",
+      "targets": [
+        ["css=.measurement-boxes:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/a/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "986b93ab-ab34-4e9b-8f19-f2150dd22a50",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.measurement-boxes:nth-child(3)",
+      "targets": [
+        ["css=.measurement-boxes:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/a/div[3]", "xpath:idRelative"],
+        ["xpath=//a/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5a69394-4aeb-4bbe-8283-d1ca0de5b3e5",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.journal-overview-container",
+      "targets": [
+        ["css=.journal-overview-container", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/Patient/1/Journal')])[2]", "xpath:href"],
+        ["xpath=//div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afd9ed18-9802-4c91-a281-ed0fe7c63cff",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.scroll-x",
+      "targets": [
+        ["css=.scroll-x", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/a[4]/div", "xpath:idRelative"],
+        ["xpath=//a[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1afe42c6-6824-402c-b4c6-ba5ec50946bc",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.chart-container",
+      "targets": [
+        ["css=.chart-container", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "905c36a5-4e24-4174-906b-bad4c3c8a758",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.lab-overview-container",
+      "targets": [
+        ["css=.lab-overview-container", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/a[3]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/Patient/1/Lab')])[2]", "xpath:href"],
+        ["xpath=//div/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c036d09-9d2b-41b7-bd5d-71e2fd03b1a3",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.ordinations-box:nth-child(1)",
+      "targets": [
+        ["css=.ordinations-box:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/Patient/1/Medicine')])[2]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8247260b-4af9-4e18-99d3-d03b8d9b5c53",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.overview-box:nth-child(2)",
+      "targets": [
+        ["css=.overview-box:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8e2bf0a-9fe7-4791-b34f-666801002e25",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Inställningar",
+      "targets": [
+        ["linkText=Inställningar", "linkText"],
+        ["css=.sidebar-navitem:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'Inställningar')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/ul/a[8]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Settings')]", "xpath:href"],
+        ["xpath=//a[8]", "xpath:position"],
+        ["xpath=//a[contains(.,'Inställningar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c6e4a8b-935c-4846-9f01-b5a3bb8c53a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.settings-container:nth-child(1) > .settings-button",
+      "targets": [
+        ["css=.settings-container:nth-child(1) > .settings-button", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ändra till läkare')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9853d08b-3d71-4f55-8950-1661d311d217",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Alla Patienter",
+      "targets": [
+        ["linkText=Alla Patienter", "linkText"],
+        ["css=.sidebar-navitem:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Alla Patienter')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/ul/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Patients')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Alla Patienter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69aa534a-89f3-443d-886a-8f44bbdb0626",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sheppard McCrann",
+      "targets": [
+        ["linkText=Sheppard McCrann", "linkText"],
+        ["css=.patients-team-container:nth-child(1) tr:nth-child(1) > .patient-name > .table-link-journal", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/table/tbody/tr/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Patient/1/Overview')]", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sheppard McCrann')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "347733b0-9128-4195-9b9c-883c6467a094",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.overview-container",
+      "targets": [
+        ["css=.overview-container", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff0d1c32-2eb0-40a7-b748-8912567d8c10",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.ordinations-box:nth-child(1)",
+      "targets": [
+        ["css=.ordinations-box:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69a979f5-1154-4c97-929d-87bfcbd4e71e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.overview-box:nth-child(2)",
+      "targets": [
+        ["css=.overview-box:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/Patient/1/Medicine')])[2]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f35b96d6-f42a-477d-811c-db079c56d69f",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.chart-container",
+      "targets": [
+        ["css=.chart-container", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7c697fd-0554-4343-a2af-7212bf0d1f0b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.scroll-x",
+      "targets": [
+        ["css=.scroll-x", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/a[2]/div", "xpath:idRelative"],
+        ["xpath=//a[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47894386-967e-4faa-83a3-1d1fec32c5a2",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.ekg-overview-container",
+      "targets": [
+        ["css=.ekg-overview-container", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[4]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8ac7be4-c91a-4326-b796-fb76e8b173db",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.lab-overview-container",
+      "targets": [
+        ["css=.lab-overview-container", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/Patient/1/Lab')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d570a266-4ae0-4319-9cdc-2fc88553d9c8",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.switcher-button-div:nth-child(2) > .button",
+      "targets": [
+        ["css=.switcher-button-div:nth-child(2) > .button", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[4]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Röntgen')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7eb5609c-f142-422a-bfc2-7619a3e80d60",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.switcher-button-div:nth-child(3) > .button",
+      "targets": [
+        ["css=.switcher-button-div:nth-child(3) > .button", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[4]/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Journal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "bde4e9ba-7198-43e9-99cb-d3f51ea85e2f",
+    "name": "Regression Test Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3d48d0af-afd8-4b74-8d1b-6a80ddd33502", "bc1453ce-90e9-48d9-a1a0-33a796d27bf8", "558155c1-b555-4621-a54c-526a31183bba", "89b350bb-2b21-4085-b2f0-960ea4842dad", "c9ed0988-ffa0-4d4c-bf6a-e64a06643e55"]
+  }],
+  "urls": ["http://localhost:3000/", "localhost:3000"],
+  "plugins": []
+}
